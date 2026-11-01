@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#f5f6f4">
-    <title>URJA · Document Intelligence</title>
+    <title>Smart Utility · Document Intelligence</title>
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
     <div class="app-shell">
         <header class="topbar">
-            <a class="brand" href="/" aria-label="URJA home"><span class="brand-mark">U</span><span><strong>URJA</strong><small>Document Intelligence</small></span></a>
+            <a class="brand" href="/" aria-label="Smart Utility home">
+                <span class="brand-mark">SU</span>
+                <span><strong>SMART UTILITY</strong><small>Document Intelligence</small></span>
+            </a>
             <div class="local-status"><span class="status-dot"></span><span>Local Processing</span><span class="status-note">Your documents stay on this device</span></div>
         </header>
 
@@ -39,7 +42,7 @@
                 </form>
 
                 <section id="processing-panel" class="processing-panel hidden" aria-live="polite" aria-busy="true">
-                    <div class="processing-heading"><span class="spinner" aria-hidden="true"></span><div><div class="section-kicker">PROCESSING DOCUMENT</div><h2 id="processing-title">Sending files to local processor</h2><p id="processing-message">The server reports a final result when processing completes.</p></div></div>
+                    <div class="processing-heading"><span class="spinner" aria-hidden="true"></span><div><div class="section-kicker">PROCESSING DOCUMENT</div><h2 id="processing-title">Sending files to local processor</h2><p id="processing-message">Smart Utility is working locally. The current API reports results when processing finishes.</p></div></div>
                     <div class="processing-track"><span></span></div>
                     <div class="processing-foot"><span>Local processing</span><span id="processing-elapsed">Working…</span></div>
                 </section>
@@ -96,7 +99,7 @@
                     </div>
                 </details>
             </section>
-            <footer class="app-footer"><span>URJA</span><span>Local document processing</span></footer>
+            <footer class="app-footer"><span>Smart Utility</span><span>Local document processing</span></footer>
         </main>
     </div>
     <div id="evidence-popover" class="evidence-popover hidden" role="dialog" aria-modal="true" aria-labelledby="evidence-title"><button type="button" id="close-evidence" class="quiet-button evidence-close">Close</button><div class="section-kicker">FIELD PROVENANCE</div><h2 id="evidence-title">Source evidence</h2><div id="evidence-content"></div></div>

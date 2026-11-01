@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
         errorPanel.classList.add("hidden"); results.classList.add("hidden");
         processingPanel.classList.remove("hidden");
         byId("processing-title").textContent = "Processing your document";
-        byId("processing-message").textContent = "URJA is working locally. The current API reports results when processing finishes.";
+        byId("processing-message").textContent = "Smart Utility is working locally. The current API reports results when processing finishes.";
         startedAt = Date.now();
         updateElapsed();
         elapsedTimer = window.setInterval(updateElapsed, 1000);
@@ -267,7 +267,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!activeDoc) return;
         const url = URL.createObjectURL(new Blob([JSON.stringify({ raw_ocr: activeDoc.raw_ocr, normalized_document: activeDoc.document, semantic: activeDoc.semantic, validation: activeDoc.validation }, null, 2)], { type: "application/json" }));
         const link = document.createElement("a");
-        link.href = url; link.download = `${activeDoc.document_id || "urja-document"}.json`; link.click();
+        link.href = url; link.download = `${activeDoc.document_id || "smart-utility-document"}.json`; link.click();
         URL.revokeObjectURL(url);
     }
 });

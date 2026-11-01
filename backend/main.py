@@ -17,14 +17,14 @@ from backend.services.generic_builder import GenericDocumentBuilder
 from backend.services.semantic.electricity_adapter import ElectricityBillAdapter
 from backend.services.validator import UrjaValidator
 
-logger = logging.getLogger("urja.main")
+logger = logging.getLogger("smart_utility.main")
 logging.basicConfig(level=logging.INFO)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DOCUMENTS_DIR = BASE_DIR / "data" / "documents"
 DOCUMENTS_DIR.mkdir(parents=True, exist_ok=True)
 
-app = FastAPI(title="Urja - Lossless Local Document Ingestion & Analysis System")
+app = FastAPI(title="Smart Utility - Lossless Local Document Ingestion & Analysis System")
 
 app.add_middleware(
     CORSMiddleware,
