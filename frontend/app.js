@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const payload = new FormData();
         selectedFiles.forEach(file => payload.append("files", file, file.name));
         payload.append("group_images", String(byId("group-images").checked));
+        payload.append("force_ocr", String(byId("force-ocr")?.checked || false));
         try {
             const response = await fetch("/api/ingest", { method: "POST", body: payload });
             const data = await response.json().catch(() => ({}));
@@ -134,7 +135,15 @@ document.addEventListener("DOMContentLoaded", () => {
         byId("result-status").textContent = humanize(status);
         byId("result-status").className = `result-pill ${status === "failed" ? "is-error" : status === "completed_with_errors" ? "is-warning" : "is-success"}`;
         byId("result-filename").textContent = doc.filename || (raw.sources || []).map(source => source.filename).join(", ") || "Uploaded document";
-        byId("result-meta").textContent = [humanize(doc.document_type || "unknown document"), `${doc.page_count ?? pages.length ?? 0} ${(doc.page_count ?? pages.length) === 1 ? "page" : "pages"}`, `${Math.round((doc.document_type_confidence || 0) * 100)}% type confidence`].filter(Boolean).join(" · ");
+        const timingText = data.timing?.total_ms 
+            ? `⚡ ${data.timing.total_ms < 1000 ? Math.round(data.timing.total_ms) + "ms" : (data.timing.total_ms / 1000).toFixed(2) + "s"} (${raw.ocr_engine || "OCR"})` 
+            : "";
+        byId("result-meta").textContent = [
+            humanize(doc.document_type || "unknown document"), 
+            `${doc.page_count ?? pages.length ?? 0} ${(doc.page_count ?? pages.length) === 1 ? "page" : "pages"}`, 
+            `${Math.round((doc.document_type_confidence || 0) * 100)}% type confidence`,
+            timingText
+        ].filter(Boolean).join(" · ");
         const warning = byId("partial-warning");
         if (failedPages || status === "completed_with_errors") {
             const succeeded = pages.length - failedPages;
