@@ -1,16 +1,18 @@
 import os
+import time
 import json
 import uuid
 import shutil
 import logging
-from typing import List, Any
+from typing import List, Any, Optional
 from pathlib import Path
 from fastapi import FastAPI, File, UploadFile, HTTPException, Form
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
+import torch
 
-from backend.services.ocr_service import prepare_sources, process_page_images
+from backend.services.ocr_service import prepare_sources, process_page_images, get_indic_ocr_parser
 from backend.services.generic_builder import GenericDocumentBuilder
 from backend.services.semantic.electricity_adapter import ElectricityBillAdapter
 from backend.services.validator import UrjaValidator
@@ -37,8 +39,26 @@ electricity_adapter = ElectricityBillAdapter()
 validator = UrjaValidator()
 
 
+@app.get("/api/health")
+def health_check():
+    """Health check endpoint showing acceleration and device status."""
+    cuda_available = torch.cuda.is_available()
+    device_name = torch.cuda.get_device_name(0) if cuda_available else "CPU"
+    return {
+        "status": "ready",
+        "acceleration": "cuda" if cuda_available else "cpu",
+        "device_name": device_name,
+        "engine": "IndicOCR + DigitalVector"
+    }
+
+
 @app.post("/api/ingest")
-def ingest_documents(files: List[UploadFile] = File(...), group_images: bool = Form(False)):
+def ingest_documents(
+    files: List[UploadFile] = File(...), 
+    group_images: bool = Form(False),
+    force_ocr: bool = Form(False)
+):
+    t_req_start = time.perf_counter()
     if not files:
         raise HTTPException(status_code=400, detail="Upload at least one PDF or image.")
     batch_id = uuid.uuid4().hex[:12]
@@ -63,13 +83,13 @@ def ingest_documents(files: List[UploadFile] = File(...), group_images: bool = F
 
     documents, manifest_documents = [], []
     for group in groups:
+        t_doc_start = time.perf_counter()
         doc_id = uuid.uuid4().hex[:12]
         doc_dir = DOCUMENTS_DIR / doc_id
         source_dir = doc_dir / "source"
         source_dir.mkdir(parents=True, exist_ok=True)
         sources = []
         for item in group:
-            ext = Path(item["filename"]).suffix.lower()
             safe_original_name = Path(item["filename"]).name
             target = source_dir / f"{item['source_id']}__{safe_original_name}"
             with target.open("wb") as out:
@@ -77,38 +97,76 @@ def ingest_documents(files: List[UploadFile] = File(...), group_images: bool = F
             sources.append({"source_id": item["source_id"], "filename": item["filename"], "type": item["type"], "order": item["order"], "path": str(target)})
         manifest_doc = {"document_id": doc_id, "sources": [{k: v for k, v in src.items() if k != "path"} for src in sources], "pages": []}
         try:
+            t_prep_start = time.perf_counter()
             prepared = prepare_sources(sources, doc_dir)
+            t_prep_ms = round((time.perf_counter() - t_prep_start) * 1000, 2)
+
             for page_order, page in enumerate(prepared, start=1):
                 manifest_doc["pages"].append({"page_id": f"page_{page_order:03d}", "source_id": page["source_id"], "page_number": page["source_page_number"], "order": page_order, "image_path": page["image_path"]})
-            raw, _ = process_page_images(prepared, doc_id, doc_dir)
+            
+            t_ocr_start = time.perf_counter()
+            raw, _ = process_page_images(prepared, doc_id, doc_dir, force_ocr=force_ocr)
+            t_ocr_ms = round((time.perf_counter() - t_ocr_start) * 1000, 2)
+
             raw["document_id"] = doc_id
             raw["sources"] = manifest_doc["sources"]
             (doc_dir / "ocr" / "indicocr_raw.json").write_text(json.dumps(raw, ensure_ascii=False, indent=2), encoding="utf-8")
             for folder in ("normalized", "semantic", "validation"):
                 (doc_dir / folder).mkdir(parents=True, exist_ok=True)
+            
+            t_build_start = time.perf_counter()
             doc = generic_builder.build(doc_id, ", ".join(x["filename"] for x in sources), raw)
             generic = doc.model_dump()
             (doc_dir / "normalized" / "document.json").write_text(json.dumps(generic, ensure_ascii=False, indent=2), encoding="utf-8")
+            
             semantic_obj = electricity_adapter.adapt(doc) if doc.document.document_type == "electricity_bill" else None
             semantic = semantic_obj.model_dump() if semantic_obj else {"domain": None, "fields": [], "evidence": []}
             semantic_name = "electricity_bill.json" if semantic_obj else "generic_semantic.json"
             (doc_dir / "semantic" / semantic_name).write_text(json.dumps(semantic, ensure_ascii=False, indent=2), encoding="utf-8")
+            
             validation = validator.validate(semantic_obj).model_dump() if semantic_obj else {"status": "not_applicable", "checks": []}
             (doc_dir / "validation" / "validation.json").write_text(json.dumps(validation, ensure_ascii=False, indent=2), encoding="utf-8")
+            t_build_ms = round((time.perf_counter() - t_build_start) * 1000, 2)
+
             status = "failed" if raw["page_count"] and all(p["status"] == "failed" for p in raw["pages"]) else raw["status"]
             manifest_doc["status"] = status
             for manifest_page, ocr_page in zip(manifest_doc["pages"], raw["pages"]):
                 manifest_page["status"] = ocr_page["status"]
             manifest_documents.append(manifest_doc)
-            documents.append({"document_id": doc_id, "status": status, "document": generic, "semantic": semantic, "validation": validation, "raw_ocr": raw})
+
+            doc_total_ms = round((time.perf_counter() - t_doc_start) * 1000, 2)
+            timing_info = {
+                "prepare_ms": t_prep_ms,
+                "ocr_ms": t_ocr_ms,
+                "build_ms": t_build_ms,
+                "total_ms": doc_total_ms
+            }
+
+            documents.append({
+                "document_id": doc_id, 
+                "status": status, 
+                "document": generic, 
+                "semantic": semantic, 
+                "validation": validation, 
+                "raw_ocr": raw,
+                "timing": timing_info
+            })
         except Exception as error:
             logger.exception("Document processing failed: %s", doc_id)
             manifest_doc.update({"status": "failed", "error": str(error)})
             manifest_documents.append(manifest_doc)
             documents.append({"document_id": doc_id, "status": "failed", "error": str(error)})
+    
     manifest = {"batch_id": batch_id, "documents": manifest_documents}
     (DOCUMENTS_DIR / f"{batch_id}_manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-    response = {"batch_id": batch_id, "status": "completed_with_errors" if any(d["status"] != "completed" for d in documents) else "completed", "documents": documents}
+    
+    total_batch_ms = round((time.perf_counter() - t_req_start) * 1000, 2)
+    response = {
+        "batch_id": batch_id, 
+        "status": "completed_with_errors" if any(d["status"] != "completed" for d in documents) else "completed", 
+        "documents": documents,
+        "timing_ms": total_batch_ms
+    }
     if len(documents) == 1:
         response.update(documents[0])
     return JSONResponse(content=response)
@@ -139,16 +197,16 @@ def get_semantic_document(document_id: str):
 def get_raw_ocr_document(document_id: str):
     raw_path = DOCUMENTS_DIR / document_id / "ocr" / "indicocr_raw.json"
     if not raw_path.exists():
-        raise HTTPException(status_code=404, detail="Raw IndicOCR output not found.")
+        raise HTTPException(status_code=404, detail="Raw OCR document not found.")
     with open(raw_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 @app.get("/api/documents/{document_id}/validation")
-def get_validation_result(document_id: str):
+def get_validation_document(document_id: str):
     val_path = DOCUMENTS_DIR / document_id / "validation" / "validation.json"
     if not val_path.exists():
-        raise HTTPException(status_code=404, detail="Validation result not found.")
+        raise HTTPException(status_code=404, detail="Validation document not found.")
     with open(val_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
