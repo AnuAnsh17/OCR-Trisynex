@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "dataflow",
+  "quality": "showcase",
+  "specification": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+    "sha256": "81bfb1e3d30e2d10626edc9871f66ed905d278a80bf6da274fdfcb8bb6ffbd59",
+    "bytes": 2227
+  },
+  "artifact": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html",
+    "sha256": "cbe8b4a861563d44474f803c6093a96ac377966f9638aa8f67f788d7d8c1bdb9",
+    "bytes": 750437
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
+  },
+  "diagnostics": [],
+  "diagnosticSummary": {
+    "total": 0,
+    "shown": 0,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-6\\processing-workflow.finalize.json",
+    "summaryReceipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-6\\processing-workflow.finalize-summary.json",
+    "browserCheckReceipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-6\\processing-workflow.browser-check.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.0.1",
+    "availableVersion": "3.0.1",
+    "releaseNotes": null,
+    "checkedAt": "2026-09-30T12:52:01.297Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 2405
+}

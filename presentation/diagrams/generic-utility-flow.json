@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "diagram_type": "dataflow",
+  "meta": {
+    "title": "One Document Layer, Multiple Utility Layouts",
+    "subtitle": "Provider-specific layouts do not require provider-specific frontend pages",
+    "output": "presentation/diagrams/generic-utility-flow.html",
+    "quality_profile": "showcase",
+    "viewBox": [1080, 420]
+  },
+  "stages": [
+    { "label": "Utility documents" },
+    { "label": "Shared intake" },
+    { "label": "Common structure" },
+    { "label": "Optional semantics" },
+    { "label": "Presentation" }
+  ],
+  "nodes": [
+    { "id": "inputs", "type": "external", "label": "Utility documents", "sublabel": "electricity · gas · water", "stage": 0, "row": 0, "width": 150 },
+    { "id": "shared", "type": "backend", "label": "Shared pipeline", "sublabel": "PDF / image · IndicOCR", "stage": 1, "row": 0, "width": 150 },
+    { "id": "record", "type": "backend", "label": "Generic document", "sublabel": "tables · fields · sections", "stage": 2, "row": 0, "width": 150 },
+    { "id": "adapter", "type": "backend", "label": "Electricity adapter", "sublabel": "other types stay generic", "stage": 3, "row": 0, "width": 150, "tag": "current scope" },
+    { "id": "ui", "type": "frontend", "label": "Generic JSON + UI", "sublabel": "returned fields + tables", "stage": 4, "row": 0, "width": 150 }
+  ],
+  "flows": [
+    { "id": "common-ingest", "from": "inputs", "to": "shared", "label": "same upload", "variant": "emphasis" },
+    { "id": "common-structure", "from": "shared", "to": "record", "label": "OCR output" },
+    { "id": "optional-adapter", "from": "record", "to": "adapter", "label": "conditional" },
+    { "id": "generic-display", "from": "adapter", "to": "ui", "label": "result", "variant": "emphasis" }
+  ],
+  "cards": [
+    { "dot": "emerald", "title": "Stable presentation contract", "items": ["The generic document layer retains structured content even when a domain adapter has not mapped it.", "The frontend renders fields and tables dynamically; it does not parse OCR text or encode provider layouts."] },
+    { "dot": "amber", "title": "What broader support means", "items": ["Gas and water files may enter the shared document pipeline, but have no specialized semantic adapters today.", "Provider coverage and additional utility semantics are planned extensions, not current extraction claims."] }
+  ]
+}

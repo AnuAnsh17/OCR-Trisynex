@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "diagram_type": "dataflow",
+  "meta": {
+    "title": "From Uploaded Pages to Reviewed Results",
+    "subtitle": "Current synchronous URJA processing path",
+    "output": "presentation/diagrams/processing-workflow.html",
+    "quality_profile": "showcase",
+    "viewBox": [1080, 420]
+  },
+  "stages": [
+    { "label": "Input" },
+    { "label": "Prepare" },
+    { "label": "Read + reconstruct" },
+    { "label": "Interpret" },
+    { "label": "Return + persist" }
+  ],
+  "nodes": [
+    { "id": "sources", "type": "external", "label": "Source files", "sublabel": "PDF · PNG · JPG", "stage": 0, "row": 0, "width": 140 },
+    { "id": "prepare", "type": "backend", "label": "Page preparation", "sublabel": "render / normalize", "stage": 1, "row": 0, "width": 140 },
+    { "id": "ocr", "type": "backend", "label": "IndicOCR", "sublabel": "text + layout blocks", "stage": 2, "row": 0, "width": 140 },
+    { "id": "rebuild", "type": "backend", "label": "Build + validate", "sublabel": "tables · fields · checks", "stage": 3, "row": 0, "width": 150, "tag": "electricity semantics" },
+    { "id": "results", "type": "database", "label": "Structured result", "sublabel": "local JSON + UI response", "stage": 4, "row": 0, "width": 140 }
+  ],
+  "flows": [
+    { "id": "prepare-flow", "from": "sources", "to": "prepare", "label": "upload", "variant": "emphasis" },
+    { "id": "ocr-flow", "from": "prepare", "to": "ocr", "label": "pages" },
+    { "id": "structure-flow", "from": "ocr", "to": "rebuild", "label": "OCR output" },
+    { "id": "result-flow", "from": "rebuild", "to": "results", "label": "JSON", "variant": "emphasis" }
+  ],
+  "cards": [
+    { "dot": "emerald", "title": "Inside document understanding", "items": ["Generic reconstruction preserves pages, fields, tables, sections, and visual elements.", "When classification selects electricity_bill, the electricity adapter maps semantic fields and the validator returns checks."] },
+    { "dot": "slate", "title": "Accurate processing feedback", "items": ["Page OCR failures are retained in the final response, including partial completion.", "The browser receives a final response; live stage and page progress are not currently exposed."] }
+  ]
+}

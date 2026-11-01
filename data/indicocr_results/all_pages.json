@@ -1,0 +1,645 @@
+{
+  "page_1.png": {
+    "image": "page_1.png",
+    "width": 1191,
+    "height": 1684,
+    "blocks": [
+      {
+        "order": 0,
+        "label": "Header",
+        "type": "PageHeader",
+        "bbox_xyxy": [
+          15.8,
+          45.6,
+          1164.6,
+          176.1
+        ],
+        "conf": 0.833,
+        "text": ""
+      },
+      {
+        "order": 1,
+        "label": "Diagram",
+        "type": "Figure",
+        "bbox_xyxy": [
+          64.4,
+          71.1,
+          225.2,
+          153.6
+        ],
+        "conf": 0.833,
+        "text": ""
+      },
+      {
+        "order": 2,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          311.2,
+          60.8,
+          729.6,
+          160.8
+        ],
+        "conf": 0.728,
+        "text": "Purvanchal Vidyut Vitaran Nigam Ltd.\nपूर्वांचल विद्युत वितरण निगम लिमिटेड\nElectricity Bill Cum Notice"
+      },
+      {
+        "order": 3,
+        "label": "Contact-info",
+        "type": "Text",
+        "bbox_xyxy": [
+          768.1,
+          63.0,
+          1146.0,
+          172.9
+        ],
+        "conf": 0.567,
+        "text": "Printed On : 25/9/2026 12:54:07 PM\n\nदेय तिथि / Due Date : 17-SEP-2026\nविच्छेदन तिथि / : 24-SEP-2026\nDisconnection Date"
+      },
+      {
+        "order": 4,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          17.4,
+          182.2,
+          1169.1,
+          493.2
+        ],
+        "conf": 0.905,
+        "text": "<table>\n<tbody>\n<tr>\n<td>अकाउंट सं./Account No.</td>\n<td>: 5401-182-778</td>\n<td>खंड/ Division</td>\n<td>: EUDD CHETMANI,VARANASI<br/>(DIV404314)</td>\n</tr>\n<tr>\n<td>नाम/ Name</td>\n<td>: S*D*I* K*M*R R*I</td>\n<td>उपखंड/ Subdivision :</td>\n<td>: EUDSD GURUDHAM (SDO4043141)</td>\n</tr>\n<tr>\n<td>पिता/पति का नाम /<br/>Father / Husband Name</td>\n<td>: LATE TEJ BAHADUR RAI</td>\n<td>स्वीकृत भार / Sanction Load</td>\n<td>: 5 kW</td>\n</tr>\n<tr>\n<td>पता / Address</td>\n<td>: F*A* N*-606 M*A V*I*H*O V*H*R R*S*D*N*I*L<br/>A*A*T*E*T B*I*H*R*P*R V*R*N*S* U* 221005 I*D</td>\n<td>बिल्ड डिमांड/ Billed Demand (Load)1<br/>केटेगरी/ Category</td>\n<td>: 3.75 KW<br/>: LMV1 PU Residential / Domestic<br/>(Non-Lifeline)</td>\n</tr>\n<tr>\n<td>ई-केवाईसी/ e-KYC2</td>\n<td>: NO</td>\n<td>सप्लाई टाइप/ Supply Type</td>\n<td>: 10</td>\n</tr>\n<tr>\n<td>पंजीकृत मोबाइल न०/ 3<br/>Registered Mobile No.</td>\n<td>: *****2160</td>\n<td>संयोजन तिथि/ Connection Date</td>\n<td>: 17-DEC-2020</td>\n</tr>\n<tr>\n<td>स्मार्ट मीटर पर दर्ज मोबाइल/4<br/>Mobile stored in Smart<br/>Meter System</td>\n<td>:</td>\n<td>संयोजन प्रकार / Connection Type</td>\n<td>: NON SMART POSTPAID</td>\n</tr>\n<tr>\n<td>ई-मेल / Email 5</td>\n<td>: a*c@xyz.com</td>\n<td>मीटरिंग व्यवस्था / Metering Arrangement</td>\n<td>: NA</td>\n</tr>\n<tr>\n<td>जमा प्रतिभूति / Security Deposit</td>\n<td>: 2000</td>\n<td>मीटर संख्या /Meter Number</td>\n<td>: 8558246</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 5,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          383.1,
+          497.1,
+          919.5,
+          551.0
+        ],
+        "conf": 0.602,
+        "text": "बिल अवधि /Bill Duration $^6$ : 01-AUG-2026 To 01-SEP-2026"
+      },
+      {
+        "order": 6,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          18.5,
+          568.4,
+          1109.3,
+          752.9
+        ],
+        "conf": 0.827,
+        "text": "<table>\n<tbody>\n<tr>\n<td>बिल संख्या / Bill No</td>\n<td>: 540-152-649-458</td>\n<td>नेट बिल्ड यूनिट / Net Billed Unit 7</td>\n<td>: 355.95 KWH</td>\n<td></td>\n</tr>\n<tr>\n<td>बिल माह / Bill Month</td>\n<td>: SEP-2026</td>\n<td>पावर फैक्टर / Power Factor 8</td>\n<td>:</td>\n<td></td>\n</tr>\n<tr>\n<td>बिल तिथि / Bill Date</td>\n<td>: 02-SEP-2026</td>\n<td>बिल आधार / Bill Basis</td>\n<td>: Metered Unit</td>\n<td>Scan & Pay your Bill</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 7,
+        "label": "Folio",
+        "type": "PageNumber",
+        "bbox_xyxy": [
+          970.8,
+          726.6,
+          1105.2,
+          747.5
+        ],
+        "conf": 0.527,
+        "text": "Scan & Pay your Bill"
+      },
+      {
+        "order": 8,
+        "label": "Diagram",
+        "type": "Figure",
+        "bbox_xyxy": [
+          36.1,
+          765.4,
+          1146.0,
+          1062.1
+        ],
+        "conf": 0.651,
+        "text": ""
+      },
+      {
+        "order": 9,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          549.3,
+          1070.7,
+          663.3,
+          1091.2
+        ],
+        "conf": 0.732,
+        "text": "टिप्पणियाँ/ Notes"
+      },
+      {
+        "order": 10,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          32.8,
+          1089.0,
+          1164.1,
+          1496.6
+        ],
+        "conf": 0.943,
+        "text": "1. बिल्ड डिमांड वह विद्युत मांग (kW/kVA/BHP में) है जिसके आधार पर बिल में मांग प्रभार की गणना की गयी है/ Billed Demand is the electricity demand (In kW/kVA/BHP) on which\ndemand charges are calculated in the bill.\n2. ई-केवाईसी/ e-KYC - ई-केवाईसी हेतु UPPCL की वेबसाइट (www.uppcl.org) पर लॉगिन करें/ For e-KYC, please login to the UPPCL website (www.uppcl.org)\n3. पंजीकृत मोबाइल न०/ Registered Mobile No. (RMN) - मोबाइल नंबर पंजीकृत कराने हेतु UPPCL की वेबसाइट अथवा निकटतम विद्युत कार्यालय से संपर्क करें/ To register your mobile\nnumber, visit the UPPCL website or contact your nearest electricity office.\n4. स्मार्ट मीटर पर दर्ज मोबाइल नंबर वह मोबाइल नंबर है जिसे स्मार्ट मीटर लगाने के दौरान OTP के माध्यम से सत्यापित किया गया है / Mobile number stored in Smart Meter System is the OTP\nverified mobile number collected during the smart meter installation process.\n5. ई-मेल/ Email Id - अपनी ईमेल आईडी पर बिल, भुगतान रसीद एवं अन्य महत्वपूर्ण जानकारी प्राप्त करने हेतु अपनी ईमेल आईडी को UPPCL की वेबसाइट अथवा निकटतम विद्युत कार्यालय में अपडेट\nकराएं/ To receive bills, payment receipts, and other important information on your email ID, update your email ID on the UPPCL website or at the nearest electricity\noffice.\nध्यान दें : \nका तात्पर्य है कि मोबाइल नंबर/ ईमेल सत्यापित हैं एवं \nका तात्पर्य है कि मोबाइल नंबर/ ईमेल सत्यापित नहीं हैं। अपना मोबाइल/ईमेल सत्यापित \nसुविधाओं का लाभ प्राप्त कर सकें।\n6. सामान्य उपभोक्ताओं हेतु बिल अवधि पिछली मीटर रीडिंग की तिथि से वर्तमान मीटर रीडिंग की तिथि तक होती है, जबकि स्मार्ट मीटर/MRI उपभोक्ताओं हेतु बिलिंग अवधि पिछले माह के प्रथम दिवस से\nअंतिम दिवस तक होती है/ Bill Duration for normal consumers is from the date of the previous meter reading to the date of the current reading, whereas for the Smart\nMeter/MRI consumers, the billing period is considered from the first day to the last day of the previous month\n7. नेट बिल्ड यूनिट्स आयातित यूनिट में से सोलर एक्सपर्ट यूनिट (यदि कोई हों) घटाने के बाद ऊर्जा प्रभार की गणना हेतु उपयोग किया जाता है/ Net Billed Units are the units used for calculation\nof electricity charges after deducting solar export units (if any) from the import units.\n8. पावर फैक्टर यह दर्शाता है कि विद्युत ऊर्जा का उपयोग कितनी दक्षता से किया जा रहा है। पावर फैक्टर 0.90 या उससे अधिक बनाए रखने से विद्युत हानियाँ कम होती हैं तथा बिल पर पावर फैक्टर सरचार्ज\nनहीं लगता है/ Power Factor indicates how efficiently electricity is being utilized. Maintaining power factor 0.90 or above helps reduce electricity losses and avoids\npower factor surcharge."
+      },
+      {
+        "order": 11,
+        "label": "Diagram",
+        "type": "Figure",
+        "bbox_xyxy": [
+          517.8,
+          1519.0,
+          685.3,
+          1552.3
+        ],
+        "conf": 0.611,
+        "text": ""
+      },
+      {
+        "order": 12,
+        "label": "Paragraph",
+        "type": "Text",
+        "bbox_xyxy": [
+          950.1,
+          1560.1,
+          1007.0,
+          1575.6
+        ],
+        "conf": 0.501,
+        "text": "5401182778"
+      },
+      {
+        "order": 13,
+        "label": "Footer",
+        "type": "PageFooter",
+        "bbox_xyxy": [
+          50.6,
+          1499.9,
+          1175.0,
+          1564.4
+        ],
+        "conf": 0.521,
+        "text": ""
+      }
+    ],
+    "markdown": "Purvanchal Vidyut Vitaran Nigam Ltd.\nपूर्वांचल विद्युत वितरण निगम लिमिटेड\nElectricity Bill Cum Notice\n\nPrinted On : 25/9/2026 12:54:07 PM\n\nदेय तिथि / Due Date : 17-SEP-2026\nविच्छेदन तिथि / : 24-SEP-2026\nDisconnection Date\n\n<table>\n<tbody>\n<tr>\n<td>अकाउंट सं./Account No.</td>\n<td>: 5401-182-778</td>\n<td>खंड/ Division</td>\n<td>: EUDD CHETMANI,VARANASI<br/>(DIV404314)</td>\n</tr>\n<tr>\n<td>नाम/ Name</td>\n<td>: S*D*I* K*M*R R*I</td>\n<td>उपखंड/ Subdivision :</td>\n<td>: EUDSD GURUDHAM (SDO4043141)</td>\n</tr>\n<tr>\n<td>पिता/पति का नाम /<br/>Father / Husband Name</td>\n<td>: LATE TEJ BAHADUR RAI</td>\n<td>स्वीकृत भार / Sanction Load</td>\n<td>: 5 kW</td>\n</tr>\n<tr>\n<td>पता / Address</td>\n<td>: F*A* N*-606 M*A V*I*H*O V*H*R R*S*D*N*I*L<br/>A*A*T*E*T B*I*H*R*P*R V*R*N*S* U* 221005 I*D</td>\n<td>बिल्ड डिमांड/ Billed Demand (Load)1<br/>केटेगरी/ Category</td>\n<td>: 3.75 KW<br/>: LMV1 PU Residential / Domestic<br/>(Non-Lifeline)</td>\n</tr>\n<tr>\n<td>ई-केवाईसी/ e-KYC2</td>\n<td>: NO</td>\n<td>सप्लाई टाइप/ Supply Type</td>\n<td>: 10</td>\n</tr>\n<tr>\n<td>पंजीकृत मोबाइल न०/ 3<br/>Registered Mobile No.</td>\n<td>: *****2160</td>\n<td>संयोजन तिथि/ Connection Date</td>\n<td>: 17-DEC-2020</td>\n</tr>\n<tr>\n<td>स्मार्ट मीटर पर दर्ज मोबाइल/4<br/>Mobile stored in Smart<br/>Meter System</td>\n<td>:</td>\n<td>संयोजन प्रकार / Connection Type</td>\n<td>: NON SMART POSTPAID</td>\n</tr>\n<tr>\n<td>ई-मेल / Email 5</td>\n<td>: a*c@xyz.com</td>\n<td>मीटरिंग व्यवस्था / Metering Arrangement</td>\n<td>: NA</td>\n</tr>\n<tr>\n<td>जमा प्रतिभूति / Security Deposit</td>\n<td>: 2000</td>\n<td>मीटर संख्या /Meter Number</td>\n<td>: 8558246</td>\n</tr>\n</tbody>\n</table>\n\nबिल अवधि /Bill Duration $^6$ : 01-AUG-2026 To 01-SEP-2026\n\n<table>\n<tbody>\n<tr>\n<td>बिल संख्या / Bill No</td>\n<td>: 540-152-649-458</td>\n<td>नेट बिल्ड यूनिट / Net Billed Unit 7</td>\n<td>: 355.95 KWH</td>\n<td></td>\n</tr>\n<tr>\n<td>बिल माह / Bill Month</td>\n<td>: SEP-2026</td>\n<td>पावर फैक्टर / Power Factor 8</td>\n<td>:</td>\n<td></td>\n</tr>\n<tr>\n<td>बिल तिथि / Bill Date</td>\n<td>: 02-SEP-2026</td>\n<td>बिल आधार / Bill Basis</td>\n<td>: Metered Unit</td>\n<td>Scan & Pay your Bill</td>\n</tr>\n</tbody>\n</table>\n\nScan & Pay your Bill\n\nटिप्पणियाँ/ Notes\n\n1. बिल्ड डिमांड वह विद्युत मांग (kW/kVA/BHP में) है जिसके आधार पर बिल में मांग प्रभार की गणना की गयी है/ Billed Demand is the electricity demand (In kW/kVA/BHP) on which\ndemand charges are calculated in the bill.\n2. ई-केवाईसी/ e-KYC - ई-केवाईसी हेतु UPPCL की वेबसाइट (www.uppcl.org) पर लॉगिन करें/ For e-KYC, please login to the UPPCL website (www.uppcl.org)\n3. पंजीकृत मोबाइल न०/ Registered Mobile No. (RMN) - मोबाइल नंबर पंजीकृत कराने हेतु UPPCL की वेबसाइट अथवा निकटतम विद्युत कार्यालय से संपर्क करें/ To register your mobile\nnumber, visit the UPPCL website or contact your nearest electricity office.\n4. स्मार्ट मीटर पर दर्ज मोबाइल नंबर वह मोबाइल नंबर है जिसे स्मार्ट मीटर लगाने के दौरान OTP के माध्यम से सत्यापित किया गया है / Mobile number stored in Smart Meter System is the OTP\nverified mobile number collected during the smart meter installation process.\n5. ई-मेल/ Email Id - अपनी ईमेल आईडी पर बिल, भुगतान रसीद एवं अन्य महत्वपूर्ण जानकारी प्राप्त करने हेतु अपनी ईमेल आईडी को UPPCL की वेबसाइट अथवा निकटतम विद्युत कार्यालय में अपडेट\nकराएं/ To receive bills, payment receipts, and other important information on your email ID, update your email ID on the UPPCL website or at the nearest electricity\noffice.\nध्यान दें : \nका तात्पर्य है कि मोबाइल नंबर/ ईमेल सत्यापित हैं एवं \nका तात्पर्य है कि मोबाइल नंबर/ ईमेल सत्यापित नहीं हैं। अपना मोबाइल/ईमेल सत्यापित \nसुविधाओं का लाभ प्राप्त कर सकें।\n6. सामान्य उपभोक्ताओं हेतु बिल अवधि पिछली मीटर रीडिंग की तिथि से वर्तमान मीटर रीडिंग की तिथि तक होती है, जबकि स्मार्ट मीटर/MRI उपभोक्ताओं हेतु बिलिंग अवधि पिछले माह के प्रथम दिवस से\nअंतिम दिवस तक होती है/ Bill Duration for normal consumers is from the date of the previous meter reading to the date of the current reading, whereas for the Smart\nMeter/MRI consumers, the billing period is considered from the first day to the last day of the previous month\n7. नेट बिल्ड यूनिट्स आयातित यूनिट में से सोलर एक्सपर्ट यूनिट (यदि कोई हों) घटाने के बाद ऊर्जा प्रभार की गणना हेतु उपयोग किया जाता है/ Net Billed Units are the units used for calculation\nof electricity charges after deducting solar export units (if any) from the import units.\n8. पावर फैक्टर यह दर्शाता है कि विद्युत ऊर्जा का उपयोग कितनी दक्षता से किया जा रहा है। पावर फैक्टर 0.90 या उससे अधिक बनाए रखने से विद्युत हानियाँ कम होती हैं तथा बिल पर पावर फैक्टर सरचार्ज\nनहीं लगता है/ Power Factor indicates how efficiently electricity is being utilized. Maintaining power factor 0.90 or above helps reduce electricity losses and avoids\npower factor surcharge.\n\n5401182778"
+  },
+  "page_2.png": {
+    "image": "page_2.png",
+    "width": 1191,
+    "height": 1684,
+    "blocks": [
+      {
+        "order": 0,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          22.2,
+          10.6,
+          1174.8,
+          382.9
+        ],
+        "conf": 0.97,
+        "text": "<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 1: बिल विवरण/ Bill Details</th>\n</tr>\n<tr>\n<th>विवरण / Details</th>\n<th>धनराशि / Amount ( ₹ )</th>\n<th>विवरण / Details</th>\n<th>धनराशि / Amount ( ₹ )</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ऊर्जा प्रभार / Energy Charges</td>\n<td>2081.17</td>\n<td>वर्तमान विलम्ब भुगतान अधिभार /Current LPSC</td>\n<td>4.26</td>\n</tr>\n<tr>\n<td>मांग प्रभार / Demand Charges</td>\n<td>412.50</td>\n<td>वर्तमान बिल राशि /Current Bill Amount</td>\n<td>2414.98</td>\n</tr>\n<tr>\n<td>न्यूनतम प्रभार / Minimum Charges</td>\n<td>0.00</td>\n<td>सरकार द्वारा छूट / Subsidy by Govt. (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>विद्युत कर / Electricity Duty</td>\n<td>114.80</td>\n<td>सब्सिडाइज़्ड बिल / Subsidized Bill</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>अतिरिक्त मांग प्रभार / Excess Demand Penalty</td>\n<td>0.00</td>\n<td>बकाया धनराशि / Arrear Amount</td>\n<td>0.49</td>\n</tr>\n<tr>\n<td>कम पीएफ अधिभार/Low PF Surcharge 11</td>\n<td>0.00</td>\n<td>पूर्व विलम्ब भुगतान अधिभार / Previous LPSC</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>ईंधन अधिभार / FPPA Surcharge 12</td>\n<td>-197.75</td>\n<td>कुल देय राशि / Payable Amount</td>\n<td>2415</td>\n</tr>\n<tr>\n<td>अन्य चार्जेज / Other Charges (As per Table 3)</td>\n<td>0.00</td>\n<td colspan=\"2\">शब्दों में / In Words: Two Thousand Four Hundred Fifteen Rupees Only</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 1,
+        "label": "Table-caption",
+        "type": "Caption",
+        "bbox_xyxy": [
+          454.5,
+          408.7,
+          819.8,
+          437.2
+        ],
+        "conf": 0.828,
+        "text": "Table 2: गणना विवरण / Calculation Details"
+      },
+      {
+        "order": 2,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          22.7,
+          421.2,
+          1183.1,
+          765.7
+        ],
+        "conf": 0.958,
+        "text": "<table>\n<thead>\n<tr>\n<th>विवरण / Details</th>\n<th>स्लैब/<br/>Slab</th>\n<th>यूनिट/<br/>Unit 13</th>\n<th>रेट धनराशि<br/>Rates/Amount</th>\n<th>कुल धनराशि/<br/>Gross Amt.</th>\n<th>क्रॉस सब्सिडी/<br/>Cross Subsidy</th>\n<th>सरकार द्वारा अनुमन्य<br/>सब्सिडी/<br/>Govt Subsidy</th>\n<th>नेट धनराशि/<br/>Net Payable</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">0-100</td>\n<td rowspan=\"2\">103.33</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>759.48</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>759.48</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">101-150</td>\n<td rowspan=\"2\">51.67</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>379.77</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>379.77</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">151-300</td>\n<td rowspan=\"2\">155.00</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>1139.25</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>1139.25</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">Above 300</td>\n<td rowspan=\"2\">45.95</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>337.73</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>337.73</td>\n</tr>\n<tr>\n<td rowspan=\"2\">फिक्सड/मांग प्रभार/Fixed/Demand Charges</td>\n<td rowspan=\"2\"></td>\n<td rowspan=\"2\">3.75</td>\n<td>Rate</td>\n<td>110.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>110.00</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>412.50</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>412.50</td>\n</tr>\n<tr>\n<td>विद्युत कर /Electricity Duty</td>\n<td></td>\n<td>0.00</td>\n<td>0.00</td>\n<td>114.80</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>114.80</td>\n</tr>\n<tr>\n<td>अतिरिक्त मांग प्रभार /Excess Demand Penalty</td>\n<td></td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 3,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          542.7,
+          780.5,
+          667.1,
+          807.6
+        ],
+        "conf": 0.712,
+        "text": "टिप्पणियाँ/ Notes"
+      },
+      {
+        "order": 4,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          42.4,
+          802.9,
+          1169.3,
+          1108.1
+        ],
+        "conf": 0.938,
+        "text": "9. देय तिथि तक छूट - देय तिथि तक अथवा उससे पूर्व भुगतान करने पर दरों में 1% की छूट प्रदान की जाएगी, जिसका समायोजन अगले बिल में किया जायेगा। कृपया नोट संख्या 17 भी देखें/ Due date\nrebate of 1% will be given on rates if the payment is made on or before the due date and it will be adjusted in the next bill. Please also see Note No. 17.\n10. न्यूनतम देय राशि वर्तमान माह के बिल एवं किस्त राशि का योग है। स्मार्ट मीटर घरेलू उपभोक्ता 31 मई 2026 तक की बकाया धनराशि 10 मासिक किस्तों (LPSC अतिरिक्त) एवं अन्य सभी स्मार्ट मीटर\nउपभोक्ता क्रमशः 40%, 30% एवं 30% की 3 किस्तों (LPSC अतिरिक्त) में जमा कर सकते हैं। इस धनराशि का भुगतान न करने पर विद्युत संयोजन विच्छेदित कर दिया जाएगा/ Minimum Payable\nAmount is the sum of the current month's bill and the installment amount. Smart meter domestic consumers can deposit the outstanding dues up to 31 May 2026 in 10\nmonthly installments (plus LPSC), while all other smart meter consumers can deposit the same in 3 installments of 40%, 30%, and 30% respectively (plus LPSC). Non-\npayment of this amount will result in disconnection.\n11. पीएफ अधिभार - यदि पावर फैक्टर 0.90 से कम है, तो kWh के आधार पर बिल्ड उपभोक्ताओं की दरों पर पर 15% पावर फैक्टर अधिभार लगाया जाता है। (LMV-10 के 10 किलोवाट तक एवं LMV-2 के 5 किलोवाट\nतक के उपभोक्ताओं को छोड़कर) Low Power Factor Surcharge of 15% on the Rate is levied on consumers billed on kWh basis if the power factor is below 0.90. (Except LMV-10 upto\n10 KW & LMV-2 upto 5 KW)\n12. ईंधन एवं विद्युत क्रय समायोजन अधिभार (FPPA) की गणना ऊर्जा प्रभार एवं मांग प्रभार पर UPPCL द्वारा निर्धारित मासिक दरों के आधार पर की जाती है / Fuel and Power Purchase Adjustment (FPPA)\nSurcharge is calculated on the Energy Charges and Fixed Charges based on the monthly rates determined by UPPCL. SEP-2026 माह हेतु FPPA अधिभार की दर -7.93 % है, जो इस बिल\nमें लगाई गई है / FPPA Surcharge rate for month of SEP-2026 is -7.93 % which has been levied in this bill\n13. प्रत्येक स्लैब हेतु यूनिट की गणना बिलिंग अवधि के दिनों की संख्या के अनुपात में की जाती है।/ Units for each slab are calculated proportionately based on the number of days in the\nbilling period."
+      },
+      {
+        "order": 5,
+        "label": "Table-caption",
+        "type": "Caption",
+        "bbox_xyxy": [
+          369.4,
+          1138.7,
+          850.1,
+          1166.2
+        ],
+        "conf": 0.822,
+        "text": "Table 3: अन्य चार्जेज का विवरण / Details of Other Charges"
+      },
+      {
+        "order": 6,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          23.8,
+          1142.8,
+          1167.9,
+          1447.2
+        ],
+        "conf": 0.954,
+        "text": "<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 3: अन्य चार्जेज का विवरण / Details of Other Charges</th>\n</tr>\n<tr>\n<th>Details</th>\n<th>Amount ( ₹ )</th>\n<th>Details</th>\n<th>Amount ( ₹ )</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ग्रीन ऊर्जा शुल्क / Green Energy Charges</td>\n<td>0.00</td>\n<td>मुआवज़ा राशि / Compensation Amt (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>अनन्तिम समायोजन /Provisional Adjustment</td>\n<td>0.00</td>\n<td>अनाद्रित चेक धनराशि /Dishonor Cheque</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>टेरिफ समायोजन /Tariff Adjustments ( ₹ )</td>\n<td>0.00</td>\n<td>अनाद्रित चेक प्रभार /Dishonor Cheque Charge</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>क्रेडिट /Credit (-)14</td>\n<td>0.00</td>\n<td>प्रतिभूति ब्याज /Interest on Security (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>डेबिट /Debit 15</td>\n<td>0.00</td>\n<td>देय प्रतिभूति /Due Security</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>छूट /Rebate (-)16</td>\n<td>0.00</td>\n<td>टी.डी.एस. राशि /TDS Amount</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>किश्त /Installment ( ₹ )</td>\n<td>0.00</td>\n<td>अग्रिम भुगतान पर ब्याज / Interest on Advance Payment (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>आर्मर्ड केबल शुल्क/ Armoured Cable Cost</td>\n<td>0.00</td>\n<td>AC शुल्क /Charges for AC 18</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>मीटर चार्जेज / Meter Charges</td>\n<td>0.00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>एलटी मीटरिंग सरचार्ज/ LT Metering Surcharge</td>\n<td>0.00</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 7,
+        "label": "Page-number",
+        "type": "PageNumber",
+        "bbox_xyxy": [
+          1100.7,
+          1446.1,
+          1161.0,
+          1463.6
+        ],
+        "conf": 0.645,
+        "text": "5401182778"
+      },
+      {
+        "order": 8,
+        "label": "Footer",
+        "type": "PageFooter",
+        "bbox_xyxy": [
+          1086.4,
+          1439.7,
+          1175.8,
+          1472.0
+        ],
+        "conf": 0.624,
+        "text": ""
+      }
+    ],
+    "markdown": "<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 1: बिल विवरण/ Bill Details</th>\n</tr>\n<tr>\n<th>विवरण / Details</th>\n<th>धनराशि / Amount ( ₹ )</th>\n<th>विवरण / Details</th>\n<th>धनराशि / Amount ( ₹ )</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ऊर्जा प्रभार / Energy Charges</td>\n<td>2081.17</td>\n<td>वर्तमान विलम्ब भुगतान अधिभार /Current LPSC</td>\n<td>4.26</td>\n</tr>\n<tr>\n<td>मांग प्रभार / Demand Charges</td>\n<td>412.50</td>\n<td>वर्तमान बिल राशि /Current Bill Amount</td>\n<td>2414.98</td>\n</tr>\n<tr>\n<td>न्यूनतम प्रभार / Minimum Charges</td>\n<td>0.00</td>\n<td>सरकार द्वारा छूट / Subsidy by Govt. (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>विद्युत कर / Electricity Duty</td>\n<td>114.80</td>\n<td>सब्सिडाइज़्ड बिल / Subsidized Bill</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>अतिरिक्त मांग प्रभार / Excess Demand Penalty</td>\n<td>0.00</td>\n<td>बकाया धनराशि / Arrear Amount</td>\n<td>0.49</td>\n</tr>\n<tr>\n<td>कम पीएफ अधिभार/Low PF Surcharge 11</td>\n<td>0.00</td>\n<td>पूर्व विलम्ब भुगतान अधिभार / Previous LPSC</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>ईंधन अधिभार / FPPA Surcharge 12</td>\n<td>-197.75</td>\n<td>कुल देय राशि / Payable Amount</td>\n<td>2415</td>\n</tr>\n<tr>\n<td>अन्य चार्जेज / Other Charges (As per Table 3)</td>\n<td>0.00</td>\n<td colspan=\"2\">शब्दों में / In Words: Two Thousand Four Hundred Fifteen Rupees Only</td>\n</tr>\n</tbody>\n</table>\n\nTable 2: गणना विवरण / Calculation Details\n\n<table>\n<thead>\n<tr>\n<th>विवरण / Details</th>\n<th>स्लैब/<br/>Slab</th>\n<th>यूनिट/<br/>Unit 13</th>\n<th>रेट धनराशि<br/>Rates/Amount</th>\n<th>कुल धनराशि/<br/>Gross Amt.</th>\n<th>क्रॉस सब्सिडी/<br/>Cross Subsidy</th>\n<th>सरकार द्वारा अनुमन्य<br/>सब्सिडी/<br/>Govt Subsidy</th>\n<th>नेट धनराशि/<br/>Net Payable</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">0-100</td>\n<td rowspan=\"2\">103.33</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>759.48</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>759.48</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">101-150</td>\n<td rowspan=\"2\">51.67</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>379.77</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>379.77</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">151-300</td>\n<td rowspan=\"2\">155.00</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>1139.25</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>1139.25</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">Above 300</td>\n<td rowspan=\"2\">45.95</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>337.73</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>337.73</td>\n</tr>\n<tr>\n<td rowspan=\"2\">फिक्सड/मांग प्रभार/Fixed/Demand Charges</td>\n<td rowspan=\"2\"></td>\n<td rowspan=\"2\">3.75</td>\n<td>Rate</td>\n<td>110.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>110.00</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>412.50</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>412.50</td>\n</tr>\n<tr>\n<td>विद्युत कर /Electricity Duty</td>\n<td></td>\n<td>0.00</td>\n<td>0.00</td>\n<td>114.80</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>114.80</td>\n</tr>\n<tr>\n<td>अतिरिक्त मांग प्रभार /Excess Demand Penalty</td>\n<td></td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n</tr>\n</tbody>\n</table>\n\nटिप्पणियाँ/ Notes\n\n9. देय तिथि तक छूट - देय तिथि तक अथवा उससे पूर्व भुगतान करने पर दरों में 1% की छूट प्रदान की जाएगी, जिसका समायोजन अगले बिल में किया जायेगा। कृपया नोट संख्या 17 भी देखें/ Due date\nrebate of 1% will be given on rates if the payment is made on or before the due date and it will be adjusted in the next bill. Please also see Note No. 17.\n10. न्यूनतम देय राशि वर्तमान माह के बिल एवं किस्त राशि का योग है। स्मार्ट मीटर घरेलू उपभोक्ता 31 मई 2026 तक की बकाया धनराशि 10 मासिक किस्तों (LPSC अतिरिक्त) एवं अन्य सभी स्मार्ट मीटर\nउपभोक्ता क्रमशः 40%, 30% एवं 30% की 3 किस्तों (LPSC अतिरिक्त) में जमा कर सकते हैं। इस धनराशि का भुगतान न करने पर विद्युत संयोजन विच्छेदित कर दिया जाएगा/ Minimum Payable\nAmount is the sum of the current month's bill and the installment amount. Smart meter domestic consumers can deposit the outstanding dues up to 31 May 2026 in 10\nmonthly installments (plus LPSC), while all other smart meter consumers can deposit the same in 3 installments of 40%, 30%, and 30% respectively (plus LPSC). Nonpayment of this amount will result in disconnection.\n11. पीएफ अधिभार - यदि पावर फैक्टर 0.90 से कम है, तो kWh के आधार पर बिल्ड उपभोक्ताओं की दरों पर पर 15% पावर फैक्टर अधिभार लगाया जाता है। (LMV-10 के 10 किलोवाट तक एवं LMV-2 के 5 किलोवाट\nतक के उपभोक्ताओं को छोड़कर) Low Power Factor Surcharge of 15% on the Rate is levied on consumers billed on kWh basis if the power factor is below 0.90. (Except LMV-10 upto\n10 KW & LMV-2 upto 5 KW)\n12. ईंधन एवं विद्युत क्रय समायोजन अधिभार (FPPA) की गणना ऊर्जा प्रभार एवं मांग प्रभार पर UPPCL द्वारा निर्धारित मासिक दरों के आधार पर की जाती है / Fuel and Power Purchase Adjustment (FPPA)\nSurcharge is calculated on the Energy Charges and Fixed Charges based on the monthly rates determined by UPPCL. SEP-2026 माह हेतु FPPA अधिभार की दर -7.93 % है, जो इस बिल\nमें लगाई गई है / FPPA Surcharge rate for month of SEP-2026 is -7.93 % which has been levied in this bill\n13. प्रत्येक स्लैब हेतु यूनिट की गणना बिलिंग अवधि के दिनों की संख्या के अनुपात में की जाती है।/ Units for each slab are calculated proportionately based on the number of days in the\nbilling period.\n\nTable 3: अन्य चार्जेज का विवरण / Details of Other Charges\n\n<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 3: अन्य चार्जेज का विवरण / Details of Other Charges</th>\n</tr>\n<tr>\n<th>Details</th>\n<th>Amount ( ₹ )</th>\n<th>Details</th>\n<th>Amount ( ₹ )</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ग्रीन ऊर्जा शुल्क / Green Energy Charges</td>\n<td>0.00</td>\n<td>मुआवज़ा राशि / Compensation Amt (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>अनन्तिम समायोजन /Provisional Adjustment</td>\n<td>0.00</td>\n<td>अनाद्रित चेक धनराशि /Dishonor Cheque</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>टेरिफ समायोजन /Tariff Adjustments ( ₹ )</td>\n<td>0.00</td>\n<td>अनाद्रित चेक प्रभार /Dishonor Cheque Charge</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>क्रेडिट /Credit (-)14</td>\n<td>0.00</td>\n<td>प्रतिभूति ब्याज /Interest on Security (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>डेबिट /Debit 15</td>\n<td>0.00</td>\n<td>देय प्रतिभूति /Due Security</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>छूट /Rebate (-)16</td>\n<td>0.00</td>\n<td>टी.डी.एस. राशि /TDS Amount</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>किश्त /Installment ( ₹ )</td>\n<td>0.00</td>\n<td>अग्रिम भुगतान पर ब्याज / Interest on Advance Payment (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>आर्मर्ड केबल शुल्क/ Armoured Cable Cost</td>\n<td>0.00</td>\n<td>AC शुल्क /Charges for AC 18</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>मीटर चार्जेज / Meter Charges</td>\n<td>0.00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>एलटी मीटरिंग सरचार्ज/ LT Metering Surcharge</td>\n<td>0.00</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\n5401182778"
+  },
+  "page_3.png": {
+    "image": "page_3.png",
+    "width": 1191,
+    "height": 1684,
+    "blocks": [
+      {
+        "order": 0,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          26.0,
+          9.8,
+          1171.2,
+          107.1
+        ],
+        "conf": 0.911,
+        "text": "<table>\n<thead>\n<tr>\n<th colspan=\"2\">Table 4 : विद्युत चोरी/अनियमितता का राजस्व निर्धारण / Theft/UE Revenue Assessment</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>विद्युत चोरी का राजस्व निर्धारण / Theft Assessment</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>विद्युत चोरी के राजस्व निर्धारण पर विलम्बित भुगतान अधिभार / LPSC on Theft Assessment</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>कुल Total</td>\n<td>0.00</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 1,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          25.6,
+          112.0,
+          1171.5,
+          353.3
+        ],
+        "conf": 0.746,
+        "text": "<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 5 : अंतिम भुगतान का विवरण / Last Payment Details</th>\n</tr>\n<tr>\n<th>भुगतान दिनांक / Payment Date</th>\n<th>भुगतान धनराशि / Payment Amount ( ₹ )</th>\n<th>भुगतान माध्यम / Payment Mode</th>\n<th>रसीद संख्या / Receipt No.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>22-AUG-2026</td>\n<td>2558.00</td>\n<td>payment via internet</td>\n<td>540111935400</td>\n</tr>\n<tr>\n<td colspan=\"4\">Table 6 : विगत छ: माह का उपभोग / Last Six month's Consumption</td>\n</tr>\n<tr>\n<td>Sr. No.</td>\n<td>माह /Month</td>\n<td>रिकॉर्डेड डिमांड/ Recorded Demand (kW / kVA)</td>\n<td>उपभोग /Consumption in Units (kWh / kVAh)</td>\n</tr>\n<tr>\n<td>1</td>\n<td>AUG-2026</td>\n<td>2.04</td>\n<td>356.12</td>\n</tr>\n<tr>\n<td>2</td>\n<td>JUL-2026</td>\n<td>3.67</td>\n<td>581.18</td>\n</tr>\n<tr>\n<td>3</td>\n<td>JUN-2026</td>\n<td>3.23</td>\n<td>474.23</td>\n</tr>\n<tr>\n<td>4</td>\n<td>MAY-2026</td>\n<td>2.33</td>\n<td>286.95</td>\n</tr>\n<tr>\n<td>5</td>\n<td>APR-2026</td>\n<td>2.56</td>\n<td>245.76</td>\n</tr>\n<tr>\n<td>6</td>\n<td>MAR-2026</td>\n<td>2.69</td>\n<td>217.15</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 2,
+        "label": "Infobox",
+        "type": "Text",
+        "bbox_xyxy": [
+          22.5,
+          358.0,
+          1175.8,
+          500.5
+        ],
+        "conf": 0.566,
+        "text": "भुगतान के विकल्प/ Payment Options\nउपभोक्ता निम्नलिखित माध्यमों से बिल का भुगतान कर सकते हैं:ऑनलाइन:-वेबसाइट: www.uppcl.org। यूपीपीसीएल कंज्यूमर ऐप (एंड्रॉइड / iOS) - यूपीआई / क्यूआर कोड: फोनपे, गूगल पे, पेटीएम, भीम, नेट बैंकिंग / डेबिट\nकार्ड / क्रेडिट कार्ड।ऑनलाइन:-विद्युत कार्यालय, मीटर रीडर, विद्युत सख्ती, जन सेवा केंद्र, फिनटेक एजेंसियां:-बायमटेक, बीएलएस, सहज, सरल\nConsumers can pay bills through the following channels: Online: www.uppcl.org | UPPCL Consumer App (Android / iOS) - UPI / QR Code: PhonePe, Google Pay, Paytm,\nBHIM, Net Banking / Debit Card / Credit Card | Offline: Department Office, Meter Readers, Vidyut Sakhi, CSC, Fintech Agencies: - Vayamtech, BLS, Sahaj, SARAL\nकृपया केवल 'UPPCL' या अधिकृत माध्यम से ही भुगतान करें। Please pay only to UPPCL or authorised payment channels"
+      },
+      {
+        "order": 3,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          552.3,
+          512.6,
+          658.0,
+          535.3
+        ],
+        "conf": 0.682,
+        "text": "टिप्पणियाँ/Notes"
+      },
+      {
+        "order": 4,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          66.3,
+          531.6,
+          1142.9,
+          738.3
+        ],
+        "conf": 0.916,
+        "text": "14. क्रेडिट वह राशि है जो बिल संशोधन के कारण समायोजित की जाती है, जिससे उपभोक्ता की देय राशि कम हो जाती है/ Credit represents the amount adjusted due to bill revision that\nreduces the consumer's payable amount.\n15. डेबिट वह अतिरिक्त राशि है जो बिल संशोधन के कारण बिल पर अधिरोपित की जाती है, जिससे देय राशि में वृद्धि होती है/ Debit represents the additional amount charged to the\nconsumer due to bill revision, resulting in increase in the payable amount.\n16. रिबेट वह छूट है जो पात्र उपभोक्ताओं को, जैसे प्रीपेड रिबेट अथवा ग्रामीण रिबेट, लागू टैरिफ प्रावधानों के अंतर्गत प्रदान की जाती है/ Rebate is the concession such as prepaid rebate or\nrural rebate given to eligible consumers as per applicable tariff provisions.\n17. देय तिथि रिबेट समायोजन वह समायोजन है जो उपभोक्ताओं को पुराना बिल निर्धारित देय तिथि तक जमा करने पर प्रदान की जाती है/ Due Date Rebate Adjustment represents the\nadjustment provided to consumers for payment of the previous bill within the prescribed due date.\n18. इसी शुल्क वह शुल्क है जो विभागीय उपभोक्ताओं द्वारा घोषित एयर कंडीशनरों की संख्या के आधार पर लगाया जाता है/ AC charges represent the charges levied on departmental\nconsumer based on number of ACs declared by them."
+      },
+      {
+        "order": 5,
+        "label": "Table-caption",
+        "type": "Caption",
+        "bbox_xyxy": [
+          477.5,
+          758.1,
+          758.1,
+          784.7
+        ],
+        "conf": 0.757,
+        "text": "Table 7: Meter Reading Details"
+      },
+      {
+        "order": 6,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          25.4,
+          770.9,
+          1182.5,
+          928.9
+        ],
+        "conf": 0.909,
+        "text": "<table>\n<thead>\n<tr>\n<th>मीटर संख्या</th>\n<th>यूनिट प्रकार</th>\n<th colspan=\"2\">पिछली / Previous</th>\n<th colspan=\"2\">वर्तमान / Current</th>\n<th>अंतर</th>\n<th>मीटर<br/>गुणांक</th>\n<th>खपत</th>\n<th>अवधि<br/>(माह)<br/>Period<br/>(Months)</th>\n<th>टिप्पणी</th>\n</tr>\n<tr>\n<th>Meter Number</th>\n<th>Unit Type</th>\n<th>तिथि/ Date</th>\n<th>रीड/Read</th>\n<th>तिथि/ Date</th>\n<th>रीड/Read</th>\n<th>Diff.</th>\n<th>M.F.</th>\n<th>Consumption</th>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>85582461VEQ1<br/>4128</td>\n<td>KW</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>1</td>\n<td>1.79 KW</td>\n<td>1</td>\n<td>OK</td>\n</tr>\n<tr>\n<td>85582461VEQ1<br/>4128</td>\n<td>KWH</td>\n<td>01-AUG-2026 00:00</td>\n<td>10315.33</td>\n<td>01-SEP-2026 00:00</td>\n<td>10671.28</td>\n<td>355.95</td>\n<td>1</td>\n<td>355.95 KWH</td>\n<td>1</td>\n<td>OK</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 7,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          22.9,
+          953.6,
+          1174.3,
+          1041.0
+        ],
+        "conf": 0.928,
+        "text": "<table>\n  <tbody>\n    <tr>\n      <td rowspan=\"2\">निर्धारित यूनिट/<br/>Assessed Unit</td>\n      <td rowspan=\"2\">0.00</td>\n      <td>प्रारंभिक अधिशेष सौर यूनिट/<br/>Opening Surplus Solar Units</td>\n      <td>0.00</td>\n      <td>अंतिम अधिशेष सौर यूनिट/<br/>Closing Surplus Solar Units</td>\n      <td>0.00</td>\n    </tr>\n    <tr>\n      <td>पी2पी विक्रय यूनिट /<br/>P2P Sold Units</td>\n      <td></td>\n      <td>पी2पी क्रय यूनिट /<br/>P2P Bought Units</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>"
+      },
+      {
+        "order": 8,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          22.0,
+          1056.7,
+          1167.5,
+          1138.6
+        ],
+        "conf": 0.643,
+        "text": "<table>\n<thead>\n<tr>\n<th>Complaint / Grievance Redressal</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>शिकायत निवारण / Complaint Redressal: - कॉल सेंटर / Call Centre: 1912 (24x7, Toll Free) - WhatsApp Chatbot: 8010968292 – ऑनलाइन शिकायत: www.uppcl.org &gt;<br/>Complaint &gt; 1912 Complaint Registration, UPPCL Smart App, UPPCL Consumer App</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 9,
+        "label": "Infobox",
+        "type": "Text",
+        "bbox_xyxy": [
+          21.2,
+          1154.4,
+          1170.5,
+          1249.5
+        ],
+        "conf": 0.53,
+        "text": "उपभोक्ता जानकारी - भार स्वयं बढ़ायें / Consumer Information - Increase Load Yourself\nउपभोक्ता स्वयं अपने संयोजन का स्वीकृत भार घर बैठे वेबसाइट 'www.uppcl.org' एवं मोबाइल ऐप 'UPPCL Consumer App' पर जाकर बढ़ा सकते हैं।\nConsumers can themselves increase contracted load of their connection through the website 'www.uppcl.org' or through the mobile app 'UPPCL Consumer App'."
+      },
+      {
+        "order": 10,
+        "label": "Page-number",
+        "type": "PageNumber",
+        "bbox_xyxy": [
+          1089.6,
+          1291.0,
+          1145.0,
+          1306.1
+        ],
+        "conf": 0.561,
+        "text": "5401182778"
+      },
+      {
+        "order": 11,
+        "label": "Footer",
+        "type": "PageFooter",
+        "bbox_xyxy": [
+          1086.9,
+          1289.4,
+          1146.5,
+          1307.1
+        ],
+        "conf": 0.635,
+        "text": ""
+      }
+    ],
+    "markdown": "<table>\n<thead>\n<tr>\n<th colspan=\"2\">Table 4 : विद्युत चोरी/अनियमितता का राजस्व निर्धारण / Theft/UE Revenue Assessment</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>विद्युत चोरी का राजस्व निर्धारण / Theft Assessment</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>विद्युत चोरी के राजस्व निर्धारण पर विलम्बित भुगतान अधिभार / LPSC on Theft Assessment</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>कुल Total</td>\n<td>0.00</td>\n</tr>\n</tbody>\n</table>\n\n<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 5 : अंतिम भुगतान का विवरण / Last Payment Details</th>\n</tr>\n<tr>\n<th>भुगतान दिनांक / Payment Date</th>\n<th>भुगतान धनराशि / Payment Amount ( ₹ )</th>\n<th>भुगतान माध्यम / Payment Mode</th>\n<th>रसीद संख्या / Receipt No.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>22-AUG-2026</td>\n<td>2558.00</td>\n<td>payment via internet</td>\n<td>540111935400</td>\n</tr>\n<tr>\n<td colspan=\"4\">Table 6 : विगत छ: माह का उपभोग / Last Six month's Consumption</td>\n</tr>\n<tr>\n<td>Sr. No.</td>\n<td>माह /Month</td>\n<td>रिकॉर्डेड डिमांड/ Recorded Demand (kW / kVA)</td>\n<td>उपभोग /Consumption in Units (kWh / kVAh)</td>\n</tr>\n<tr>\n<td>1</td>\n<td>AUG-2026</td>\n<td>2.04</td>\n<td>356.12</td>\n</tr>\n<tr>\n<td>2</td>\n<td>JUL-2026</td>\n<td>3.67</td>\n<td>581.18</td>\n</tr>\n<tr>\n<td>3</td>\n<td>JUN-2026</td>\n<td>3.23</td>\n<td>474.23</td>\n</tr>\n<tr>\n<td>4</td>\n<td>MAY-2026</td>\n<td>2.33</td>\n<td>286.95</td>\n</tr>\n<tr>\n<td>5</td>\n<td>APR-2026</td>\n<td>2.56</td>\n<td>245.76</td>\n</tr>\n<tr>\n<td>6</td>\n<td>MAR-2026</td>\n<td>2.69</td>\n<td>217.15</td>\n</tr>\n</tbody>\n</table>\n\nभुगतान के विकल्प/ Payment Options\nउपभोक्ता निम्नलिखित माध्यमों से बिल का भुगतान कर सकते हैं:ऑनलाइन:-वेबसाइट: www.uppcl.org। यूपीपीसीएल कंज्यूमर ऐप (एंड्रॉइड / iOS) - यूपीआई / क्यूआर कोड: फोनपे, गूगल पे, पेटीएम, भीम, नेट बैंकिंग / डेबिट\nकार्ड / क्रेडिट कार्ड।ऑनलाइन:-विद्युत कार्यालय, मीटर रीडर, विद्युत सख्ती, जन सेवा केंद्र, फिनटेक एजेंसियां:-बायमटेक, बीएलएस, सहज, सरल\nConsumers can pay bills through the following channels: Online: www.uppcl.org | UPPCL Consumer App (Android / iOS) - UPI / QR Code: PhonePe, Google Pay, Paytm,\nBHIM, Net Banking / Debit Card / Credit Card | Offline: Department Office, Meter Readers, Vidyut Sakhi, CSC, Fintech Agencies: - Vayamtech, BLS, Sahaj, SARAL\nकृपया केवल 'UPPCL' या अधिकृत माध्यम से ही भुगतान करें। Please pay only to UPPCL or authorised payment channels\n\nटिप्पणियाँ/Notes\n\n14. क्रेडिट वह राशि है जो बिल संशोधन के कारण समायोजित की जाती है, जिससे उपभोक्ता की देय राशि कम हो जाती है/ Credit represents the amount adjusted due to bill revision that\nreduces the consumer's payable amount.\n15. डेबिट वह अतिरिक्त राशि है जो बिल संशोधन के कारण बिल पर अधिरोपित की जाती है, जिससे देय राशि में वृद्धि होती है/ Debit represents the additional amount charged to the\nconsumer due to bill revision, resulting in increase in the payable amount.\n16. रिबेट वह छूट है जो पात्र उपभोक्ताओं को, जैसे प्रीपेड रिबेट अथवा ग्रामीण रिबेट, लागू टैरिफ प्रावधानों के अंतर्गत प्रदान की जाती है/ Rebate is the concession such as prepaid rebate or\nrural rebate given to eligible consumers as per applicable tariff provisions.\n17. देय तिथि रिबेट समायोजन वह समायोजन है जो उपभोक्ताओं को पुराना बिल निर्धारित देय तिथि तक जमा करने पर प्रदान की जाती है/ Due Date Rebate Adjustment represents the\nadjustment provided to consumers for payment of the previous bill within the prescribed due date.\n18. इसी शुल्क वह शुल्क है जो विभागीय उपभोक्ताओं द्वारा घोषित एयर कंडीशनरों की संख्या के आधार पर लगाया जाता है/ AC charges represent the charges levied on departmental\nconsumer based on number of ACs declared by them.\n\nTable 7: Meter Reading Details\n\n<table>\n<thead>\n<tr>\n<th>मीटर संख्या</th>\n<th>यूनिट प्रकार</th>\n<th colspan=\"2\">पिछली / Previous</th>\n<th colspan=\"2\">वर्तमान / Current</th>\n<th>अंतर</th>\n<th>मीटर<br/>गुणांक</th>\n<th>खपत</th>\n<th>अवधि<br/>(माह)<br/>Period<br/>(Months)</th>\n<th>टिप्पणी</th>\n</tr>\n<tr>\n<th>Meter Number</th>\n<th>Unit Type</th>\n<th>तिथि/ Date</th>\n<th>रीड/Read</th>\n<th>तिथि/ Date</th>\n<th>रीड/Read</th>\n<th>Diff.</th>\n<th>M.F.</th>\n<th>Consumption</th>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>85582461VEQ1<br/>4128</td>\n<td>KW</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>1</td>\n<td>1.79 KW</td>\n<td>1</td>\n<td>OK</td>\n</tr>\n<tr>\n<td>85582461VEQ1<br/>4128</td>\n<td>KWH</td>\n<td>01-AUG-2026 00:00</td>\n<td>10315.33</td>\n<td>01-SEP-2026 00:00</td>\n<td>10671.28</td>\n<td>355.95</td>\n<td>1</td>\n<td>355.95 KWH</td>\n<td>1</td>\n<td>OK</td>\n</tr>\n</tbody>\n</table>\n\n<table>\n  <tbody>\n    <tr>\n      <td rowspan=\"2\">निर्धारित यूनिट/<br/>Assessed Unit</td>\n      <td rowspan=\"2\">0.00</td>\n      <td>प्रारंभिक अधिशेष सौर यूनिट/<br/>Opening Surplus Solar Units</td>\n      <td>0.00</td>\n      <td>अंतिम अधिशेष सौर यूनिट/<br/>Closing Surplus Solar Units</td>\n      <td>0.00</td>\n    </tr>\n    <tr>\n      <td>पी2पी विक्रय यूनिट /<br/>P2P Sold Units</td>\n      <td></td>\n      <td>पी2पी क्रय यूनिट /<br/>P2P Bought Units</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>\n\n<table>\n<thead>\n<tr>\n<th>Complaint / Grievance Redressal</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>शिकायत निवारण / Complaint Redressal: - कॉल सेंटर / Call Centre: 1912 (24x7, Toll Free) - WhatsApp Chatbot: 8010968292 – ऑनलाइन शिकायत: www.uppcl.org &gt;<br/>Complaint &gt; 1912 Complaint Registration, UPPCL Smart App, UPPCL Consumer App</td>\n</tr>\n</tbody>\n</table>\n\nउपभोक्ता जानकारी - भार स्वयं बढ़ायें / Consumer Information - Increase Load Yourself\nउपभोक्ता स्वयं अपने संयोजन का स्वीकृत भार घर बैठे वेबसाइट 'www.uppcl.org' एवं मोबाइल ऐप 'UPPCL Consumer App' पर जाकर बढ़ा सकते हैं।\nConsumers can themselves increase contracted load of their connection through the website 'www.uppcl.org' or through the mobile app 'UPPCL Consumer App'.\n\n5401182778"
+  },
+  "page_4.png": {
+    "image": "page_4.png",
+    "width": 1191,
+    "height": 1684,
+    "blocks": [
+      {
+        "order": 0,
+        "label": "Header",
+        "type": "PageHeader",
+        "bbox_xyxy": [
+          367.4,
+          80.0,
+          834.8,
+          110.8
+        ],
+        "conf": 0.582,
+        "text": ""
+      },
+      {
+        "order": 1,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          374.2,
+          84.2,
+          830.4,
+          108.8
+        ],
+        "conf": 0.759,
+        "text": "Statutory / Legal Notices (Mandatory as per Supply Code)"
+      },
+      {
+        "order": 2,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          46.2,
+          107.6,
+          1166.3,
+          215.0
+        ],
+        "conf": 0.918,
+        "text": "1. विद्युत आपूर्ति संहिता - 2005 के खण्ड 9.3 के अन्तर्गत इस बिल को अंतिम नोटिस माना जायेगा। बकाया राशि का भुगतान न करने पर विद्युत कनेक्शन काटा जा सकता है।This Bill will be construed\nas Final Notice under Section 9.3 of Electricity Supply Code-2005. Supply can be disconnected at any date on non-payment of dues.\n2. यदि उपभोक्ता निर्धारित देय तिथि तक पूर्ण विद्युत बिल का भुगतान नहीं करता है, तो लेट पेमेंट सरचार्ज (LPSC) लगाया जाएगा।If the consumer fails to pay the entire electricity bill by the due\ndate, Late Payment Surcharge (LPSC) shall be levied on the unpaid amount and electricity connection will be disconnected.\n3. विद्युत चोरी, विद्युत अधिनियम 2003 की धारा 135 के अंतर्गत दंडनीय अपराध है।Electricity theft is a punishable offence under Section 135 of the Electricity Act, 2003."
+      },
+      {
+        "order": 3,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          138.2,
+          237.3,
+          524.5,
+          300.1
+        ],
+        "conf": 0.747,
+        "text": "मोबाइल/व्हाट्सऐप/ईमेल कैसे अपडेट करें\nHow to update Mobile/WhatsApp/Email"
+      },
+      {
+        "order": 4,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          65.4,
+          303.8,
+          599.9,
+          396.6
+        ],
+        "conf": 0.877,
+        "text": "• **UPPCL** की वेबसाइट पर उपलब्ध \"मोबाइल नंबर और ईमेल सुधार\" लिंक पर\nजाएँ अथवा नीचे दिए गए QR कोड को स्कैन करें। Visit the \"Mobile Number\nand Email updation\" link available on the UPPCL website or scan\nthe below QR Code."
+      },
+      {
+        "order": 5,
+        "label": "Image",
+        "type": "Picture",
+        "bbox_xyxy": [
+          269.4,
+          404.7,
+          395.1,
+          526.1
+        ],
+        "conf": 0.776,
+        "text": ""
+      },
+      {
+        "order": 6,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          66.7,
+          554.4,
+          581.2,
+          607.8
+        ],
+        "conf": 0.848,
+        "text": "• अपने निकटतम विद्युत कार्यालय में संपर्क करें/ Visit your nearest Electricity\nOffice."
+      },
+      {
+        "order": 7,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          765.9,
+          233.2,
+          1046.3,
+          300.6
+        ],
+        "conf": 0.752,
+        "text": "मोबाइल/ईमेल कैसे सत्यापित करें\nHow to verify Mobile/Email"
+      },
+      {
+        "order": 8,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          632.2,
+          303.3,
+          1167.2,
+          379.7
+        ],
+        "conf": 0.907,
+        "text": "• UPPCL की वेबसाइट पर उपलब्ध \"मोबाइल/ईमेल सत्यापित करें\" लिंक पर जाएँ\nअथवा नीचे दिए गए QR कोड को स्कैन करें। Visit the \"Verify Mobile/Email\n_\" link available on the UPPCL website or scan the below QR Code."
+      },
+      {
+        "order": 9,
+        "label": "Image",
+        "type": "Picture",
+        "bbox_xyxy": [
+          843.5,
+          400.6,
+          971.4,
+          526.6
+        ],
+        "conf": 0.802,
+        "text": ""
+      },
+      {
+        "order": 10,
+        "label": "Paragraph",
+        "type": "Text",
+        "bbox_xyxy": [
+          1098.3,
+          809.3,
+          1153.4,
+          825.5
+        ],
+        "conf": 0.527,
+        "text": "5401182778"
+      },
+      {
+        "order": 11,
+        "label": "Footer",
+        "type": "PageFooter",
+        "bbox_xyxy": [
+          1094.1,
+          805.5,
+          1157.7,
+          829.0
+        ],
+        "conf": 0.585,
+        "text": ""
+      }
+    ],
+    "markdown": "Statutory / Legal Notices (Mandatory as per Supply Code)\n\n1. विद्युत आपूर्ति संहिता - 2005 के खण्ड 9.3 के अन्तर्गत इस बिल को अंतिम नोटिस माना जायेगा। बकाया राशि का भुगतान न करने पर विद्युत कनेक्शन काटा जा सकता है।This Bill will be construed\nas Final Notice under Section 9.3 of Electricity Supply Code-2005. Supply can be disconnected at any date on non-payment of dues.\n2. यदि उपभोक्ता निर्धारित देय तिथि तक पूर्ण विद्युत बिल का भुगतान नहीं करता है, तो लेट पेमेंट सरचार्ज (LPSC) लगाया जाएगा।If the consumer fails to pay the entire electricity bill by the due\ndate, Late Payment Surcharge (LPSC) shall be levied on the unpaid amount and electricity connection will be disconnected.\n3. विद्युत चोरी, विद्युत अधिनियम 2003 की धारा 135 के अंतर्गत दंडनीय अपराध है।Electricity theft is a punishable offence under Section 135 of the Electricity Act, 2003.\n\nमोबाइल/व्हाट्सऐप/ईमेल कैसे अपडेट करें\nHow to update Mobile/WhatsApp/Email\n\n• **UPPCL** की वेबसाइट पर उपलब्ध \"मोबाइल नंबर और ईमेल सुधार\" लिंक पर\nजाएँ अथवा नीचे दिए गए QR कोड को स्कैन करें। Visit the \"Mobile Number\nand Email updation\" link available on the UPPCL website or scan\nthe below QR Code.\n\n• अपने निकटतम विद्युत कार्यालय में संपर्क करें/ Visit your nearest Electricity\nOffice.\n\nमोबाइल/ईमेल कैसे सत्यापित करें\nHow to verify Mobile/Email\n\n• UPPCL की वेबसाइट पर उपलब्ध \"मोबाइल/ईमेल सत्यापित करें\" लिंक पर जाएँ\nअथवा नीचे दिए गए QR कोड को स्कैन करें। Visit the \"Verify Mobile/Email\n_\" link available on the UPPCL website or scan the below QR Code.\n\n5401182778"
+  }
+}

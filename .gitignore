@@ -1,0 +1,48 @@
+# Environments
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Node / Frontend
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Data & temporary uploads (keep fixtures)
+data/documents/
+data/uploads/*
+!data/uploads/test_bill.pdf
+data/extracted/
+data/outputs/
+data/ocr_results/*
+!data/ocr_results/3f5ec0f9174d/
+!data/ocr_results/3f5ec0f9174d/**
+data/indicocr_results/*
+!data/indicocr_results/all_pages.json
+
+# Presentation exports
+presentation/rendered/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local

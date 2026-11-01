@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "diagram_type": "dataflow",
+  "meta": {
+    "title": "A Structured Record Beyond OCR Text",
+    "subtitle": "Shared generic document layer · electricity semantics in the current adapter",
+    "output": "presentation/diagrams/document-model.html",
+    "quality_profile": "showcase",
+    "viewBox": [1080, 420]
+  },
+  "stages": [
+    { "label": "Source" },
+    { "label": "Generic layer" },
+    { "label": "Semantic view" },
+    { "label": "Evidence + checks" },
+    { "label": "Consumer" }
+  ],
+  "nodes": [
+    { "id": "ocr", "type": "external", "label": "Document + OCR", "sublabel": "pages · text · blocks", "stage": 0, "row": 0, "width": 140 },
+    { "id": "generic", "type": "backend", "label": "Generic document", "sublabel": "fields · tables · sections", "stage": 1, "row": 0, "width": 150 },
+    { "id": "semantic", "type": "backend", "label": "Electricity semantics", "sublabel": "customer · bill · meter", "stage": 2, "row": 0, "width": 158, "tag": "current adapter" },
+    { "id": "checks", "type": "security", "label": "Evidence + checks", "sublabel": "page · text · confidence", "stage": 3, "row": 0, "width": 150 },
+    { "id": "output", "type": "database", "label": "JSON + generic UI", "sublabel": "raw · normalized · semantic", "stage": 4, "row": 0, "width": 150 }
+  ],
+  "flows": [
+    { "id": "to-generic", "from": "ocr", "to": "generic", "label": "raw", "variant": "emphasis" },
+    { "id": "to-semantic", "from": "generic", "to": "semantic", "label": "mapped" },
+    { "id": "to-checks", "from": "semantic", "to": "checks", "label": "evidence" },
+    { "id": "to-output", "from": "checks", "to": "output", "label": "JSON", "variant": "emphasis" }
+  ],
+  "cards": [
+    { "dot": "emerald", "title": "Electricity semantic groups", "items": ["Provider, customer, account, bill, connection, meter, money, payment, and security deposit.", "Consumption history, tariff slabs, charges, and solar net-metering fields are part of the current electricity model."] },
+    { "dot": "slate", "title": "Generic data remains available", "items": ["Raw OCR and normalized pages, fields, tables, sections, and visual elements travel alongside the semantic result.", "Semantic extraction beyond electricity is a future adapter; the frontend renders the data the API returns."] }
+  ]
+}

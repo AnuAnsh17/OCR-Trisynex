@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f6f4">
+    <title>URJA · Document Intelligence</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app-shell">
+        <header class="topbar">
+            <a class="brand" href="/" aria-label="URJA home"><span class="brand-mark">U</span><span><strong>URJA</strong><small>Document Intelligence</small></span></a>
+            <div class="local-status"><span class="status-dot"></span><span>Local Processing</span><span class="status-note">Your documents stay on this device</span></div>
+        </header>
+
+        <main>
+            <section class="workspace" aria-labelledby="upload-heading">
+                <div class="section-kicker">DOCUMENT WORKSPACE</div>
+                <h1 id="upload-heading">Upload a document</h1>
+                <p class="intro">Add PDFs or page images to extract and review their structure.</p>
+
+                <form id="upload-form" class="upload-form">
+                    <input type="file" id="pdf-input" accept=".pdf,.png,.jpg,.jpeg,application/pdf,image/png,image/jpeg" multiple hidden>
+                    <div id="drop-zone" class="drop-zone" tabindex="0" role="button" aria-label="Choose files or drop them here">
+                        <div class="upload-icon" aria-hidden="true">↑</div>
+                        <strong>Drop files here</strong>
+                        <span>or <button type="button" id="choose-files" class="text-button">choose files</button></span>
+                        <small>PDF, PNG, JPG or JPEG</small>
+                    </div>
+
+                    <div id="file-panel" class="file-panel hidden">
+                        <div class="file-panel-heading"><div><strong>Selected files</strong><span id="file-count"></span></div><button type="button" id="clear-files" class="quiet-button">Clear all</button></div>
+                        <ol id="selected-files-list" class="file-list" aria-label="Selected files"></ol>
+                        <label id="group-images-row" class="check-row hidden"><input type="checkbox" id="group-images"><span>Group selected images into one document</span></label>
+                        <button type="submit" id="process-btn" class="primary-button"><span>Process document</span><span aria-hidden="true">→</span></button>
+                    </div>
+                </form>
+
+                <section id="processing-panel" class="processing-panel hidden" aria-live="polite" aria-busy="true">
+                    <div class="processing-heading"><span class="spinner" aria-hidden="true"></span><div><div class="section-kicker">PROCESSING DOCUMENT</div><h2 id="processing-title">Sending files to local processor</h2><p id="processing-message">The server reports a final result when processing completes.</p></div></div>
+                    <div class="processing-track"><span></span></div>
+                    <div class="processing-foot"><span>Local processing</span><span id="processing-elapsed">Working…</span></div>
+                </section>
+                <div id="error-panel" class="error-panel hidden" role="alert"></div>
+            </section>
+
+            <section id="results-container" class="results hidden" aria-live="polite">
+                <div class="results-topline"><div><div class="section-kicker">DOCUMENT RESULTS</div><h2 id="result-heading">Processing complete</h2></div><span id="result-status" class="result-pill"></span></div>
+                <div id="document-picker-wrap" class="document-picker-wrap hidden"><label for="document-picker">Processed document</label><select id="document-picker"></select></div>
+                <div class="document-intro"><div class="file-type-mark" aria-hidden="true">DOC</div><div><h3 id="result-filename">Document</h3><p id="result-meta"></p></div></div>
+                <div id="partial-warning" class="partial-warning hidden"></div>
+                <div id="result-error" class="error-panel hidden" role="alert"></div>
+
+                <section id="important-section" class="result-section hidden">
+                    <div class="section-heading"><div><div class="section-kicker">AT A GLANCE</div><h3>Important information</h3></div></div>
+                    <div id="important-grid" class="info-grid"></div>
+                </section>
+
+                <section id="domain-section" class="result-section hidden">
+                    <div class="section-heading"><div><div class="section-kicker">EXTRACTED DATA</div><h3 id="domain-heading">Document information</h3></div></div>
+                    <div id="domain-grid" class="info-grid"></div>
+                </section>
+
+                <section id="tables-section" class="result-section hidden">
+                    <div class="section-heading"><div><div class="section-kicker">STRUCTURE</div><h3>Detected tables <span id="table-count" class="count-badge"></span></h3></div></div>
+                    <div id="generic-tables-container" class="table-list"></div>
+                </section>
+
+                <section id="validation-section" class="result-section hidden">
+                    <div class="section-heading"><div><div class="section-kicker">CHECKS</div><h3>Validation</h3></div><span id="validation-summary" class="subtle-label"></span></div>
+                    <div id="validation-checks-container" class="validation-list"></div>
+                </section>
+
+                <details id="other-section" class="disclosure result-section hidden">
+                    <summary><span><span class="section-kicker">MORE FROM THIS DOCUMENT</span><strong>Other document information</strong></span><span class="disclosure-count" id="other-count"></span></summary>
+                    <div class="disclosure-content">
+                        <div id="generic-sections-container"></div>
+                        <div id="generic-fields-container"></div>
+                        <div id="generic-visuals-container"></div>
+                        <div id="additional-data-container"></div>
+                    </div>
+                </details>
+
+                <details class="disclosure technical-section">
+                    <summary><span><span class="section-kicker">FOR INSPECTION</span><strong>Technical details</strong></span><span class="subtle-label">JSON and source data</span></summary>
+                    <div class="disclosure-content">
+                        <div class="json-actions">
+                            <button type="button" data-json="raw" class="secondary-button">Raw IndicOCR JSON</button>
+                            <button type="button" data-json="normalized" class="secondary-button">Normalized document JSON</button>
+                            <button type="button" data-json="semantic" class="secondary-button">Semantic JSON</button>
+                            <button type="button" id="download-json-btn" class="secondary-button">Download JSON</button>
+                        </div>
+                        <div id="json-display-wrapper" class="json-view hidden"><div class="json-view-heading"><strong id="json-title">JSON</strong><button id="close-json" class="quiet-button" type="button">Close</button></div><pre><code id="json-code-block"></code></pre></div>
+                    </div>
+                </details>
+            </section>
+            <footer class="app-footer"><span>URJA</span><span>Local document processing</span></footer>
+        </main>
+    </div>
+    <div id="evidence-popover" class="evidence-popover hidden" role="dialog" aria-modal="true" aria-labelledby="evidence-title"><button type="button" id="close-evidence" class="quiet-button evidence-close">Close</button><div class="section-kicker">FIELD PROVENANCE</div><h2 id="evidence-title">Source evidence</h2><div id="evidence-content"></div></div>
+    <div id="popover-backdrop" class="popover-backdrop hidden"></div>
+    <script src="/static/app.js"></script>
+</body>
+</html>

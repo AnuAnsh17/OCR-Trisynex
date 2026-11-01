@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "finalize",
+  "status": "fail",
+  "type": "architecture",
+  "quality": "showcase",
+  "specification": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture.json",
+    "sha256": "184443c58ee6b5dba868048ba1c9a65db0fdae735cff8205d0904d106a267639",
+    "bytes": 3230
+  },
+  "artifact": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture.html"
+  },
+  "gates": {
+    "validate": "not-run",
+    "deliver": "fail",
+    "check": "not-run",
+    "browser-check": "not-run"
+  },
+  "failedStage": "deliver",
+  "diagnostics": [
+    {
+      "code": "delivery/concurrent-attempt",
+      "severity": "error",
+      "message": "Could not start delivery for \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture.html\": Another delivery attempt owns \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture.html\" through lock \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\.archify-delivery-lock.json\".",
+      "subject": {
+        "output": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture.html",
+        "lock": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\.archify-delivery-lock.json"
+      },
+      "evidence": {
+        "reason": "Another delivery attempt owns \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture.html\" through lock \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\.archify-delivery-lock.json\"."
+      },
+      "supportedFixes": [
+        "wait for the active delivery to finish, then retry"
+      ]
+    }
+  ],
+  "diagnosticSummary": {
+    "total": 1,
+    "shown": 1,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture-review-1\\architecture.finalize.json",
+    "summaryReceipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture-review-1\\architecture.finalize-summary.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.0.1",
+    "availableVersion": "3.0.1",
+    "releaseNotes": null,
+    "checkedAt": "2026-09-30T12:52:01.297Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 627
+}

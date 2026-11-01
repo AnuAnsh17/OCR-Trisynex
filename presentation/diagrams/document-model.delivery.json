@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "9a9719a4-a30e-4cf0-a0eb-c3716bdbe737",
+  "status": "current",
+  "command": "deliver",
+  "type": "dataflow",
+  "input": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\document-model.json",
+  "output": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\document-model.html",
+  "specification": {
+    "sha256": "778a48def7195ff078e7e17393cb3d9f0c4daeadd51efab2cae539459480c836",
+    "bytes": 2325
+  },
+  "artifact": {
+    "sha256": "6ec7c63abeed08b13d92e197c340e02c37835eadc260bbf5d1ea0695f9f1cabb",
+    "bytes": 750757
+  }
+}

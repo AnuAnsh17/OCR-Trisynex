@@ -1,0 +1,132 @@
+{
+  "page_number": 2,
+  "source_file": "page_2.png",
+  "source_path": "C:\\Users\\anura\\Desktop\\urja\\data\\uploads\\3f5ec0f9174d\\pages\\page_2.png",
+  "ocr_engine": "IndicOCR",
+  "model": "bodhan-ai/indic-ocr",
+  "result": {
+    "image": "page_2.png",
+    "width": 1654,
+    "height": 2339,
+    "blocks": [
+      {
+        "order": 0,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          31.1,
+          16.1,
+          1631.2,
+          532.1
+        ],
+        "conf": 0.966,
+        "text": "<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 1: बिल विवरण/ Bill Details</th>\n</tr>\n<tr>\n<th>विवरण / Details</th>\n<th>धनराशि / Amount ( ₹ )</th>\n<th>विवरण / Details</th>\n<th>धनराशि / Amount ( ₹ )</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ऊर्जा प्रभार / Energy Charges</td>\n<td>2081.17</td>\n<td>वर्तमान विलम्ब भुगतान अधिभार /Current LPSC</td>\n<td>4.26</td>\n</tr>\n<tr>\n<td>मांग प्रभार / Demand Charges</td>\n<td>412.50</td>\n<td>वर्तमान बिल राशि /Current Bill Amount</td>\n<td>2414.98</td>\n</tr>\n<tr>\n<td>न्यूनतम प्रभार / Minimum Charges</td>\n<td>0.00</td>\n<td>सरकार द्वारा छूट / Subsidy by Govt. (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>विद्युत कर / Electricity Duty</td>\n<td>114.80</td>\n<td>सब्सिडाइज़्ड बिल / Subsidized Bill</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>अतिरिक्त मांग प्रभार / Excess Demand Penalty</td>\n<td>0.00</td>\n<td>बकाया धनराशि / Arrear Amount</td>\n<td>0.49</td>\n</tr>\n<tr>\n<td>कम पीएफ अधिभार/Low PF Surcharge 11</td>\n<td>0.00</td>\n<td>पूर्व विलम्ब भुगतान अधिभार / Previous LPSC</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>ईंधन अधिभार / FPPA Surcharge 12</td>\n<td>-197.75</td>\n<td>कुल देय राशि / Payable Amount</td>\n<td>2415</td>\n</tr>\n<tr>\n<td>अन्य चार्जेज / Other Charges (As per Table 3)</td>\n<td>0.00</td>\n<td colspan=\"2\">शब्दों में / In Words: Two Thousand Four Hundred Fifteen Rupees Only</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 1,
+        "label": "Table-caption",
+        "type": "Caption",
+        "bbox_xyxy": [
+          631.3,
+          567.7,
+          1138.0,
+          606.7
+        ],
+        "conf": 0.824,
+        "text": "Table 2: गणना विवरण / Calculation Details"
+      },
+      {
+        "order": 2,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          32.3,
+          585.9,
+          1642.3,
+          1063.3
+        ],
+        "conf": 0.96,
+        "text": "<table>\n<thead>\n<tr>\n<th>विवरण / Details</th>\n<th>स्लैब/<br/>Slab</th>\n<th>यूनिट/<br/>Unit 13</th>\n<th>रेट धनराशि<br/>Rates/Amount</th>\n<th>कुल धनराशि/<br/>Gross Amt.</th>\n<th>क्रॉस सब्सिडी/<br/>Cross Subsidy</th>\n<th>सरकार द्वारा अनुमन्य<br/>सब्सिडी/<br/>Govt Subsidy</th>\n<th>नेट धनराशि/<br/>Net Payable</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">0-100</td>\n<td rowspan=\"2\">103.33</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>759.48</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>759.48</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">101-150</td>\n<td rowspan=\"2\">51.67</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>379.77</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>379.77</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">151-300</td>\n<td rowspan=\"2\">155.00</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>1139.25</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>1139.25</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">Above 300</td>\n<td rowspan=\"2\">45.95</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>337.73</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>337.73</td>\n</tr>\n<tr>\n<td rowspan=\"2\" colspan=\"2\">फिक्सड/मांग प्रभार/Fixed/Demand Charges</td>\n<td rowspan=\"2\">3.75</td>\n<td>Rate</td>\n<td>110.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>110.00</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>412.50</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>412.50</td>\n</tr>\n<tr>\n<td colspan=\"2\">विद्युत कर /Electricity Duty</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>114.80</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>114.80</td>\n</tr>\n<tr>\n<td colspan=\"2\">अतिरिक्त मांग प्रभार /Excess Demand Penalty</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 3,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          754.4,
+          1085.1,
+          926.1,
+          1122.0
+        ],
+        "conf": 0.724,
+        "text": "टिप्पणियाँ/ Notes"
+      },
+      {
+        "order": 4,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          59.4,
+          1115.9,
+          1624.1,
+          1538.8
+        ],
+        "conf": 0.939,
+        "text": "9. देय तिथि तक छूट - देय तिथि तक अथवा उससे पूर्व भुगतान करने पर दरों में 1% की छूट प्रदान की जाएगी, जिसका समायोजन अगले बिल में किया जायेगा। कृपया नोट संख्या 17 भी देखें/ Due date\nrebate of 1% will be given on rates if the payment is made on or before the due date and it will be adjusted in the next bill. Please also see Note No. 17.\n10. न्यूनतम देय राशि वर्तमान माह के बिल एवं किस्त राशि का योग है। स्मार्ट मीटर घरेलू उपभोक्ता 31 मई 2026 तक की बकाया धनराशि 10 मासिक किस्तों (LPSC अतिरिक्त) एवं अन्य सभी स्मार्ट मीटर\nउपभोक्ता क्रमशः 40%, 30% एवं 30% की 3 किस्तों (LPSC अतिरिक्त) में जमा कर सकते हैं। इस धनराशि का भुगतान न करने पर विद्युत संयोजन विच्छेदित कर दिया जाएगा/ Minimum Payable\nAmount is the sum of the current month's bill and the installment amount. Smart meter domestic consumers can deposit the outstanding dues up to 31 May 2026 in 10\nmonthly installments (plus LPSC), while all other smart meter consumers can deposit the same in 3 installments of 40%, 30%, and 30% respectively (plus LPSC). Non-\npayment of this amount will result in disconnection.\n11. पीएफ अधिभार - यदि पावर फैक्टर 0.90 से कम है, तो kWh के आधार पर बिल्ड उपभोक्ताओं की दरों पर पर 15% पावर फैक्टर अधिभार लगाया जाता है। (LMV-10 के 10 किलोवाट तक एवं LMV-2 के 5 किलोवाट\nतक के उपभोक्ताओं को छोड़कर) Low Power Factor Surcharge of 15% on the Rate is levied on consumers billed on kWh basis if the power factor is below 0.90. (Except LMV-10 upto\n10 KW & LMV-2 upto 5 KW)\n12. ईंधन एवं विद्युत क्रय समायोजन अधिभार (FPPA) की गणना ऊर्जा प्रभार एवं मांग प्रभार पर UPPCL द्वारा निर्धारित मासिक दरों के आधार पर की जाती है / Fuel and Power Purchase Adjustment (FPPA)\nSurcharge is calculated on the Energy Charges and Fixed Charges based on the monthly rates determined by UPPCL. **SEP-2026** माह हेतु FPPA अधिभार की दर -**7.93** % है, जो इस बिल\nमें लगाई गई है / FPPA Surcharge rate for month of **SEP-2026** is -**7.93** % which has been levied in this bill\n13. प्रत्येक स्लैब हेतु यूनिट की गणना बिलिंग अवधि के दिनों की संख्या के अनुपात में की जाती है।/ Units for each slab are calculated proportionately based on the number of days in the\nbilling period."
+      },
+      {
+        "order": 5,
+        "label": "Table-caption",
+        "type": "Caption",
+        "bbox_xyxy": [
+          512.9,
+          1582.3,
+          1180.8,
+          1620.2
+        ],
+        "conf": 0.817,
+        "text": "Table 3: अन्य चार्जेज का विवरण / Details of Other Charges"
+      },
+      {
+        "order": 6,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          33.1,
+          1588.9,
+          1621.9,
+          2009.9
+        ],
+        "conf": 0.951,
+        "text": "<table>\n<thead>\n<tr>\n<th>Details</th>\n<th>Amount ( ₹ )</th>\n<th>Details</th>\n<th>Amount ( ₹ )</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ग्रीन ऊर्जा शुल्क / Green Energy Charges</td>\n<td>0.00</td>\n<td>मुआवज़ा राशि / Compensation Amt (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>अनन्तिम समायोजन /Provisional Adjustment</td>\n<td>0.00</td>\n<td>अनाद्रित चेक धनराशि /Dishonor Cheque</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>टैरिफ समायोजन /Tariff Adjustments ( ₹ )</td>\n<td>0.00</td>\n<td>अनाद्रित चेक प्रभार /Dishonor Cheque Charge</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>क्रेडिट /Credit (-)14</td>\n<td>0.00</td>\n<td>प्रतिभूति ब्याज /Interest on Security (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>डेबिट /Debit 15</td>\n<td>0.00</td>\n<td>देय प्रतिभूति /Due Security</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>छूट /Rebate (-)16</td>\n<td>0.00</td>\n<td>टी.डी.एस. राशि /TDS Amount</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>किश्त /Installment ( ₹ )</td>\n<td>0.00</td>\n<td>अग्रिम भुगतान पर ब्याज / Interest on Advance Payment (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>आर्मर्ड केबल शुल्क/ Armoured Cable Cost</td>\n<td>0.00</td>\n<td>AC शुल्क /Charges for AC 18</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>मीटर चार्जेज / Meter Charges</td>\n<td>0.00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>एलटी मीटरिंग सरचार्ज/ LT Metering Surcharge</td>\n<td>0.00</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 7,
+        "label": "Folio",
+        "type": "PageNumber",
+        "bbox_xyxy": [
+          1528.8,
+          2008.5,
+          1612.6,
+          2032.8
+        ],
+        "conf": 0.633,
+        "text": "5401182778"
+      },
+      {
+        "order": 8,
+        "label": "Footer",
+        "type": "PageFooter",
+        "bbox_xyxy": [
+          1509.1,
+          1999.4,
+          1633.3,
+          2044.5
+        ],
+        "conf": 0.622,
+        "text": ""
+      }
+    ],
+    "markdown": "<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 1: बिल विवरण/ Bill Details</th>\n</tr>\n<tr>\n<th>विवरण / Details</th>\n<th>धनराशि / Amount ( ₹ )</th>\n<th>विवरण / Details</th>\n<th>धनराशि / Amount ( ₹ )</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ऊर्जा प्रभार / Energy Charges</td>\n<td>2081.17</td>\n<td>वर्तमान विलम्ब भुगतान अधिभार /Current LPSC</td>\n<td>4.26</td>\n</tr>\n<tr>\n<td>मांग प्रभार / Demand Charges</td>\n<td>412.50</td>\n<td>वर्तमान बिल राशि /Current Bill Amount</td>\n<td>2414.98</td>\n</tr>\n<tr>\n<td>न्यूनतम प्रभार / Minimum Charges</td>\n<td>0.00</td>\n<td>सरकार द्वारा छूट / Subsidy by Govt. (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>विद्युत कर / Electricity Duty</td>\n<td>114.80</td>\n<td>सब्सिडाइज़्ड बिल / Subsidized Bill</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>अतिरिक्त मांग प्रभार / Excess Demand Penalty</td>\n<td>0.00</td>\n<td>बकाया धनराशि / Arrear Amount</td>\n<td>0.49</td>\n</tr>\n<tr>\n<td>कम पीएफ अधिभार/Low PF Surcharge 11</td>\n<td>0.00</td>\n<td>पूर्व विलम्ब भुगतान अधिभार / Previous LPSC</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>ईंधन अधिभार / FPPA Surcharge 12</td>\n<td>-197.75</td>\n<td>कुल देय राशि / Payable Amount</td>\n<td>2415</td>\n</tr>\n<tr>\n<td>अन्य चार्जेज / Other Charges (As per Table 3)</td>\n<td>0.00</td>\n<td colspan=\"2\">शब्दों में / In Words: Two Thousand Four Hundred Fifteen Rupees Only</td>\n</tr>\n</tbody>\n</table>\n\nTable 2: गणना विवरण / Calculation Details\n\n<table>\n<thead>\n<tr>\n<th>विवरण / Details</th>\n<th>स्लैब/<br/>Slab</th>\n<th>यूनिट/<br/>Unit 13</th>\n<th>रेट धनराशि<br/>Rates/Amount</th>\n<th>कुल धनराशि/<br/>Gross Amt.</th>\n<th>क्रॉस सब्सिडी/<br/>Cross Subsidy</th>\n<th>सरकार द्वारा अनुमन्य<br/>सब्सिडी/<br/>Govt Subsidy</th>\n<th>नेट धनराशि/<br/>Net Payable</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">0-100</td>\n<td rowspan=\"2\">103.33</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>759.48</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>759.48</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">101-150</td>\n<td rowspan=\"2\">51.67</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>379.77</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>379.77</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">151-300</td>\n<td rowspan=\"2\">155.00</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>1139.25</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>1139.25</td>\n</tr>\n<tr>\n<td rowspan=\"2\">ऊर्जा प्रभार /Energy Charges</td>\n<td rowspan=\"2\">Above 300</td>\n<td rowspan=\"2\">45.95</td>\n<td>Rate</td>\n<td>7.35</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>7.35</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>337.73</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>337.73</td>\n</tr>\n<tr>\n<td rowspan=\"2\" colspan=\"2\">फिक्सड/मांग प्रभार/Fixed/Demand Charges</td>\n<td rowspan=\"2\">3.75</td>\n<td>Rate</td>\n<td>110.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>110.00</td>\n</tr>\n<tr>\n<td>Amount( ₹ )</td>\n<td>412.50</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>412.50</td>\n</tr>\n<tr>\n<td colspan=\"2\">विद्युत कर /Electricity Duty</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>114.80</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>114.80</td>\n</tr>\n<tr>\n<td colspan=\"2\">अतिरिक्त मांग प्रभार /Excess Demand Penalty</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n<td>0.00</td>\n</tr>\n</tbody>\n</table>\n\nटिप्पणियाँ/ Notes\n\n9. देय तिथि तक छूट - देय तिथि तक अथवा उससे पूर्व भुगतान करने पर दरों में 1% की छूट प्रदान की जाएगी, जिसका समायोजन अगले बिल में किया जायेगा। कृपया नोट संख्या 17 भी देखें/ Due date\nrebate of 1% will be given on rates if the payment is made on or before the due date and it will be adjusted in the next bill. Please also see Note No. 17.\n10. न्यूनतम देय राशि वर्तमान माह के बिल एवं किस्त राशि का योग है। स्मार्ट मीटर घरेलू उपभोक्ता 31 मई 2026 तक की बकाया धनराशि 10 मासिक किस्तों (LPSC अतिरिक्त) एवं अन्य सभी स्मार्ट मीटर\nउपभोक्ता क्रमशः 40%, 30% एवं 30% की 3 किस्तों (LPSC अतिरिक्त) में जमा कर सकते हैं। इस धनराशि का भुगतान न करने पर विद्युत संयोजन विच्छेदित कर दिया जाएगा/ Minimum Payable\nAmount is the sum of the current month's bill and the installment amount. Smart meter domestic consumers can deposit the outstanding dues up to 31 May 2026 in 10\nmonthly installments (plus LPSC), while all other smart meter consumers can deposit the same in 3 installments of 40%, 30%, and 30% respectively (plus LPSC). Nonpayment of this amount will result in disconnection.\n11. पीएफ अधिभार - यदि पावर फैक्टर 0.90 से कम है, तो kWh के आधार पर बिल्ड उपभोक्ताओं की दरों पर पर 15% पावर फैक्टर अधिभार लगाया जाता है। (LMV-10 के 10 किलोवाट तक एवं LMV-2 के 5 किलोवाट\nतक के उपभोक्ताओं को छोड़कर) Low Power Factor Surcharge of 15% on the Rate is levied on consumers billed on kWh basis if the power factor is below 0.90. (Except LMV-10 upto\n10 KW & LMV-2 upto 5 KW)\n12. ईंधन एवं विद्युत क्रय समायोजन अधिभार (FPPA) की गणना ऊर्जा प्रभार एवं मांग प्रभार पर UPPCL द्वारा निर्धारित मासिक दरों के आधार पर की जाती है / Fuel and Power Purchase Adjustment (FPPA)\nSurcharge is calculated on the Energy Charges and Fixed Charges based on the monthly rates determined by UPPCL. **SEP-2026** माह हेतु FPPA अधिभार की दर -**7.93** % है, जो इस बिल\nमें लगाई गई है / FPPA Surcharge rate for month of **SEP-2026** is -**7.93** % which has been levied in this bill\n13. प्रत्येक स्लैब हेतु यूनिट की गणना बिलिंग अवधि के दिनों की संख्या के अनुपात में की जाती है।/ Units for each slab are calculated proportionately based on the number of days in the\nbilling period.\n\nTable 3: अन्य चार्जेज का विवरण / Details of Other Charges\n\n<table>\n<thead>\n<tr>\n<th>Details</th>\n<th>Amount ( ₹ )</th>\n<th>Details</th>\n<th>Amount ( ₹ )</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ग्रीन ऊर्जा शुल्क / Green Energy Charges</td>\n<td>0.00</td>\n<td>मुआवज़ा राशि / Compensation Amt (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>अनन्तिम समायोजन /Provisional Adjustment</td>\n<td>0.00</td>\n<td>अनाद्रित चेक धनराशि /Dishonor Cheque</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>टैरिफ समायोजन /Tariff Adjustments ( ₹ )</td>\n<td>0.00</td>\n<td>अनाद्रित चेक प्रभार /Dishonor Cheque Charge</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>क्रेडिट /Credit (-)14</td>\n<td>0.00</td>\n<td>प्रतिभूति ब्याज /Interest on Security (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>डेबिट /Debit 15</td>\n<td>0.00</td>\n<td>देय प्रतिभूति /Due Security</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>छूट /Rebate (-)16</td>\n<td>0.00</td>\n<td>टी.डी.एस. राशि /TDS Amount</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>किश्त /Installment ( ₹ )</td>\n<td>0.00</td>\n<td>अग्रिम भुगतान पर ब्याज / Interest on Advance Payment (-)</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>आर्मर्ड केबल शुल्क/ Armoured Cable Cost</td>\n<td>0.00</td>\n<td>AC शुल्क /Charges for AC 18</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>मीटर चार्जेज / Meter Charges</td>\n<td>0.00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>एलटी मीटरिंग सरचार्ज/ LT Metering Surcharge</td>\n<td>0.00</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\n5401182778"
+  }
+}

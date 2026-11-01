@@ -1,0 +1,184 @@
+{
+  "page_number": 1,
+  "source_file": "page_1.png",
+  "source_path": "C:\\Users\\anura\\Desktop\\urja\\data\\uploads\\3f5ec0f9174d\\pages\\page_1.png",
+  "ocr_engine": "IndicOCR",
+  "model": "bodhan-ai/indic-ocr",
+  "result": {
+    "image": "page_1.png",
+    "width": 1654,
+    "height": 2339,
+    "blocks": [
+      {
+        "order": 0,
+        "label": "Header",
+        "type": "PageHeader",
+        "bbox_xyxy": [
+          22.2,
+          62.5,
+          1618.4,
+          244.4
+        ],
+        "conf": 0.83,
+        "text": ""
+      },
+      {
+        "order": 1,
+        "label": "Diagram",
+        "type": "Figure",
+        "bbox_xyxy": [
+          90.0,
+          98.7,
+          313.6,
+          213.1
+        ],
+        "conf": 0.835,
+        "text": ""
+      },
+      {
+        "order": 2,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          431.9,
+          84.2,
+          1013.6,
+          223.8
+        ],
+        "conf": 0.728,
+        "text": "Purvanchal Vidyut Vitaran Nigam Ltd.\nपूर्वांचल विद्युत वितरण निगम लिमिटेड\nElectricity Bill Cum Notice"
+      },
+      {
+        "order": 3,
+        "label": "Contact-info",
+        "type": "Text",
+        "bbox_xyxy": [
+          1066.2,
+          87.2,
+          1591.8,
+          240.0
+        ],
+        "conf": 0.561,
+        "text": "Printed On : 25/9/2026 12:54:07 PM\n\nदेय तिथि / Due Date : 17-SEP-2026\nविच्छेदन तिथि / : 24-SEP-2026\nDisconnection Date"
+      },
+      {
+        "order": 4,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          24.5,
+          252.6,
+          1623.9,
+          685.3
+        ],
+        "conf": 0.9,
+        "text": "<table>\n<tbody>\n<tr>\n<td>अकाउंट सं./Account No.</td>\n<td>: 5401-182-778</td>\n<td>खंड/ Division</td>\n<td>: EUDD CHETMANI,VARANASI<br/>(DIV404314)</td>\n</tr>\n<tr>\n<td>नाम/ Name</td>\n<td>: S*D*I* K*M*R R*I</td>\n<td>उपखंड/ Subdivision :</td>\n<td>: EUDSD GURUDHAM (SDO4043141)</td>\n</tr>\n<tr>\n<td>पिता/पति का नाम /<br/>Father / Husband Name</td>\n<td>: LATE TEJ BAHADUR RAI</td>\n<td>स्वीकृत भार / Sanction Load</td>\n<td>: 5 kW</td>\n</tr>\n<tr>\n<td>पता / Address</td>\n<td>: F*A* N*-606 M*A V*I*H*O V*H*R R*S*D*N*I*L<br/>A*A*T*E*T B*I*H*R*P*R V*R*N*S* U* 221005 I*D</td>\n<td>बिल्ड डिमांड/ Billed Demand (Load)¹</td>\n<td>: 3.75 KW</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>केटेगरी/ Category</td>\n<td>: LMV1 PU Residential / Domestic<br/>(Non-Lifeline)</td>\n</tr>\n<tr>\n<td>ई-केवाईसी/ e-KYC²</td>\n<td>: NO</td>\n<td>सप्लाई टाइप/ Supply Type</td>\n<td>: 10</td>\n</tr>\n<tr>\n<td>पंजीकृत मोबाइल न०/³<br/>Registered Mobile No.</td>\n<td>: *****2160</td>\n<td>संयोजन तिथि/ Connection Date</td>\n<td>: 17-DEC-2020</td>\n</tr>\n<tr>\n<td>स्मार्ट मीटर पर दर्ज मोबाइल/⁴<br/>Mobile stored in Smart<br/>Meter System</td>\n<td>:</td>\n<td>संयोजन प्रकार / Connection Type</td>\n<td>: NON SMART POSTPAID</td>\n</tr>\n<tr>\n<td>ई-मेल / Email ⁵</td>\n<td>: a*c@xyz.com</td>\n<td>मीटरिंग व्यवस्था / Metering Arrangement</td>\n<td>: NA</td>\n</tr>\n<tr>\n<td>जमा प्रतिभूति / Security Deposit</td>\n<td>: 2000</td>\n<td>मीटर संख्या /Meter Number</td>\n<td>: 8558246</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 5,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          532.9,
+          690.9,
+          1276.9,
+          765.8
+        ],
+        "conf": 0.607,
+        "text": "बिल अवधि /Bill Duration $^6$ : 01-AUG-2026 To 01-SEP-2026"
+      },
+      {
+        "order": 6,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          25.6,
+          788.5,
+          1541.0,
+          1045.3
+        ],
+        "conf": 0.831,
+        "text": "<table>\n<tbody>\n<tr>\n<td>बिल संख्या / Bill No</td>\n<td>: 540-152-649-458</td>\n<td>नेट बिल्ड यूनिट / Net Billed Unit 7</td>\n<td>: 355.95 KWH</td>\n<td></td>\n</tr>\n<tr>\n<td>बिल माह / Bill Month</td>\n<td>: SEP-2026</td>\n<td>पावर फैक्टर / Power Factor 8</td>\n<td>:</td>\n<td></td>\n</tr>\n<tr>\n<td>बिल तिथि / Bill Date</td>\n<td>: 02-SEP-2026</td>\n<td>बिल आधार / Bill Basis</td>\n<td>: Metered Unit</td>\n<td>Scan & Pay your Bill</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 7,
+        "label": "Folio",
+        "type": "PageNumber",
+        "bbox_xyxy": [
+          1348.0,
+          1009.0,
+          1534.9,
+          1038.0
+        ],
+        "conf": 0.516,
+        "text": "Scan & Pay your Bill"
+      },
+      {
+        "order": 8,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          50.1,
+          1062.6,
+          1592.1,
+          1475.0
+        ],
+        "conf": 0.643,
+        "text": "<table>\n  <tbody>\n    <tr>\n      <td>\n        पूर्व बकाया<br/>Previous Dues<br/>0.49\n      </td>\n      <td>\n        वर्तमान बिल राशि<br/>Current Bill Amount<br/>2,414.98\n      </td>\n      <td>\n        देय राशि<br/>Payable Amount<br/>2,415.00\n      </td>\n    </tr>\n    <tr>\n      <td>\n        देय तिथि तक छूट<br/>Due Date Rebate 9<br/>22.96\n      </td>\n      <td>\n        देय तिथि तक राशि<br/>Payable by Due Date<br/>2,393.00\n      </td>\n      <td>\n        न्यूनतम देय राशि<br/>Minimum Payable Amount 10\n      </td>\n    </tr>\n  </tbody>\n</table>"
+      },
+      {
+        "order": 9,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          763.2,
+          1486.7,
+          920.9,
+          1515.2
+        ],
+        "conf": 0.732,
+        "text": "टिप्पणियाँ/ Notes"
+      },
+      {
+        "order": 10,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          45.7,
+          1512.9,
+          1616.6,
+          2078.7
+        ],
+        "conf": 0.949,
+        "text": "1. बिल्ड डिमांड वह विद्युत मांग (kW/kVA/BHP में) है जिसके आधार पर बिल में मांग प्रभार की गणना की गयी है/ Billed Demand is the electricity demand (ln kW/kVA/BHP) on which\ndemand charges are calculated in the bill.\n2. ई-केवाईसी/ e-KYC - ई-केवाईसी हेतु UPPCL की वेबसाइट (www.uppcl.org) पर लॉगिन करें/ For e-KYC, please login to the UPPCL website (www.uppcl.org)\n3. पंजीकृत मोबाइल न०/ Registered Mobile No. (RMN) - मोबाइल नंबर पंजीकृत कराने हेतु UPPCL की वेबसाइट अथवा निकटतम विद्युत कार्यालय से संपर्क करें/ To register your mobile\nnumber, visit the UPPCL website or contact your nearest electricity office.\n4. स्मार्ट मीटर पर दर्ज मोबाइल नंबर वह मोबाइल नंबर है जिसे स्मार्ट मीटर लगाने के दौरान OTP के माध्यम से सत्यापित किया गया है / Mobile number stored in Smart Meter System is the OTP\nverified mobile number collected during the smart meter installation process.\n5. ई-मेल/ Email Id - अपनी ईमेल आईडी पर बिल, भुगतान रसीद एवं अन्य महत्वपूर्ण जानकारी प्राप्त करने हेतु अपनी ईमेल आईडी को UPPCL की वेबसाइट अथवा निकटतम विद्युत कार्यालय में अपडेट\nकराएं/ To receive bills, payment receipts, and other important information on your email ID, update your email ID on the UPPCL website or at the nearest electricity\noffice.\nध्यान दें : ☞ का तात्पर्य है कि मोबाइल नंबर/ ईमेल सत्यापित हैं एवं ☞ का तात्पर्य है कि मोबाइल नंबर/ ईमेल सत्यापित नहीं हैं। अपना मोबाइल/ईमेल सत्यापित ☞ कराएं जिससे आप सभी ऑनलाइन\nसुविधाओं का लाभ प्राप्त कर सकें।\n6. सामान्य उपभोक्ताओं हेतु बिल अवधि पिछली मीटर रीडिंग की तिथि से वर्तमान मीटर रीडिंग की तिथि तक होती है, जबकि स्मार्ट मीटर/MRI उपभोक्ताओं हेतु बिलिंग अवधि पिछले माह के प्रथम दिवस से\nअंतिम दिवस तक होती है/ Bill Duration for normal consumers is from the date of the previous meter reading to the date of the current reading, whereas for the Smart\nMeter/MRI consumers, the billing period is considered from the first day to the last day of the previous month\n7. नेट बिल्ड यूनिट्स आयातित यूनिट में से सोलर एक्सपोर्ट यूनिट (यदि कोई हों) घटाने के बाद ऊर्जा प्रभार की गणना हेतु उपयोग किया जाता है/ Net Billed Units are the units used for calculation\nof electricity charges after deducting solar export units (if any) from the import units.\n8. पावर फैक्टर यह दर्शाता है कि विद्युत ऊर्जा का उपयोग कितनी दक्षता से किया जा रहा है। पावर फैक्टर 0.90 या उससे अधिक बनाए रखने से विद्युत हानियाँ कम होती हैं तथा बिल पर पावर फैक्टर सरचार्ज\nनहीं लगता है/ Power Factor indicates how efficiently electricity is being utilized. Maintaining power factor 0.90 or above helps reduce electricity losses and avoids\npower factor surcharge."
+      },
+      {
+        "order": 11,
+        "label": "Diagram",
+        "type": "Figure",
+        "bbox_xyxy": [
+          719.7,
+          2110.2,
+          951.7,
+          2154.9
+        ],
+        "conf": 0.598,
+        "text": ""
+      },
+      {
+        "order": 12,
+        "label": "Footer",
+        "type": "PageFooter",
+        "bbox_xyxy": [
+          70.1,
+          2082.6,
+          1631.7,
+          2173.6
+        ],
+        "conf": 0.509,
+        "text": ""
+      }
+    ],
+    "markdown": "Purvanchal Vidyut Vitaran Nigam Ltd.\nपूर्वांचल विद्युत वितरण निगम लिमिटेड\nElectricity Bill Cum Notice\n\nPrinted On : 25/9/2026 12:54:07 PM\n\nदेय तिथि / Due Date : 17-SEP-2026\nविच्छेदन तिथि / : 24-SEP-2026\nDisconnection Date\n\n<table>\n<tbody>\n<tr>\n<td>अकाउंट सं./Account No.</td>\n<td>: 5401-182-778</td>\n<td>खंड/ Division</td>\n<td>: EUDD CHETMANI,VARANASI<br/>(DIV404314)</td>\n</tr>\n<tr>\n<td>नाम/ Name</td>\n<td>: S*D*I* K*M*R R*I</td>\n<td>उपखंड/ Subdivision :</td>\n<td>: EUDSD GURUDHAM (SDO4043141)</td>\n</tr>\n<tr>\n<td>पिता/पति का नाम /<br/>Father / Husband Name</td>\n<td>: LATE TEJ BAHADUR RAI</td>\n<td>स्वीकृत भार / Sanction Load</td>\n<td>: 5 kW</td>\n</tr>\n<tr>\n<td>पता / Address</td>\n<td>: F*A* N*-606 M*A V*I*H*O V*H*R R*S*D*N*I*L<br/>A*A*T*E*T B*I*H*R*P*R V*R*N*S* U* 221005 I*D</td>\n<td>बिल्ड डिमांड/ Billed Demand (Load)¹</td>\n<td>: 3.75 KW</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>केटेगरी/ Category</td>\n<td>: LMV1 PU Residential / Domestic<br/>(Non-Lifeline)</td>\n</tr>\n<tr>\n<td>ई-केवाईसी/ e-KYC²</td>\n<td>: NO</td>\n<td>सप्लाई टाइप/ Supply Type</td>\n<td>: 10</td>\n</tr>\n<tr>\n<td>पंजीकृत मोबाइल न०/³<br/>Registered Mobile No.</td>\n<td>: *****2160</td>\n<td>संयोजन तिथि/ Connection Date</td>\n<td>: 17-DEC-2020</td>\n</tr>\n<tr>\n<td>स्मार्ट मीटर पर दर्ज मोबाइल/⁴<br/>Mobile stored in Smart<br/>Meter System</td>\n<td>:</td>\n<td>संयोजन प्रकार / Connection Type</td>\n<td>: NON SMART POSTPAID</td>\n</tr>\n<tr>\n<td>ई-मेल / Email ⁵</td>\n<td>: a*c@xyz.com</td>\n<td>मीटरिंग व्यवस्था / Metering Arrangement</td>\n<td>: NA</td>\n</tr>\n<tr>\n<td>जमा प्रतिभूति / Security Deposit</td>\n<td>: 2000</td>\n<td>मीटर संख्या /Meter Number</td>\n<td>: 8558246</td>\n</tr>\n</tbody>\n</table>\n\nबिल अवधि /Bill Duration $^6$ : 01-AUG-2026 To 01-SEP-2026\n\n<table>\n<tbody>\n<tr>\n<td>बिल संख्या / Bill No</td>\n<td>: 540-152-649-458</td>\n<td>नेट बिल्ड यूनिट / Net Billed Unit 7</td>\n<td>: 355.95 KWH</td>\n<td></td>\n</tr>\n<tr>\n<td>बिल माह / Bill Month</td>\n<td>: SEP-2026</td>\n<td>पावर फैक्टर / Power Factor 8</td>\n<td>:</td>\n<td></td>\n</tr>\n<tr>\n<td>बिल तिथि / Bill Date</td>\n<td>: 02-SEP-2026</td>\n<td>बिल आधार / Bill Basis</td>\n<td>: Metered Unit</td>\n<td>Scan & Pay your Bill</td>\n</tr>\n</tbody>\n</table>\n\nScan & Pay your Bill\n\n<table>\n  <tbody>\n    <tr>\n      <td>\n        पूर्व बकाया<br/>Previous Dues<br/>0.49\n      </td>\n      <td>\n        वर्तमान बिल राशि<br/>Current Bill Amount<br/>2,414.98\n      </td>\n      <td>\n        देय राशि<br/>Payable Amount<br/>2,415.00\n      </td>\n    </tr>\n    <tr>\n      <td>\n        देय तिथि तक छूट<br/>Due Date Rebate 9<br/>22.96\n      </td>\n      <td>\n        देय तिथि तक राशि<br/>Payable by Due Date<br/>2,393.00\n      </td>\n      <td>\n        न्यूनतम देय राशि<br/>Minimum Payable Amount 10\n      </td>\n    </tr>\n  </tbody>\n</table>\n\nटिप्पणियाँ/ Notes\n\n1. बिल्ड डिमांड वह विद्युत मांग (kW/kVA/BHP में) है जिसके आधार पर बिल में मांग प्रभार की गणना की गयी है/ Billed Demand is the electricity demand (ln kW/kVA/BHP) on which\ndemand charges are calculated in the bill.\n2. ई-केवाईसी/ e-KYC - ई-केवाईसी हेतु UPPCL की वेबसाइट (www.uppcl.org) पर लॉगिन करें/ For e-KYC, please login to the UPPCL website (www.uppcl.org)\n3. पंजीकृत मोबाइल न०/ Registered Mobile No. (RMN) - मोबाइल नंबर पंजीकृत कराने हेतु UPPCL की वेबसाइट अथवा निकटतम विद्युत कार्यालय से संपर्क करें/ To register your mobile\nnumber, visit the UPPCL website or contact your nearest electricity office.\n4. स्मार्ट मीटर पर दर्ज मोबाइल नंबर वह मोबाइल नंबर है जिसे स्मार्ट मीटर लगाने के दौरान OTP के माध्यम से सत्यापित किया गया है / Mobile number stored in Smart Meter System is the OTP\nverified mobile number collected during the smart meter installation process.\n5. ई-मेल/ Email Id - अपनी ईमेल आईडी पर बिल, भुगतान रसीद एवं अन्य महत्वपूर्ण जानकारी प्राप्त करने हेतु अपनी ईमेल आईडी को UPPCL की वेबसाइट अथवा निकटतम विद्युत कार्यालय में अपडेट\nकराएं/ To receive bills, payment receipts, and other important information on your email ID, update your email ID on the UPPCL website or at the nearest electricity\noffice.\nध्यान दें : ☞ का तात्पर्य है कि मोबाइल नंबर/ ईमेल सत्यापित हैं एवं ☞ का तात्पर्य है कि मोबाइल नंबर/ ईमेल सत्यापित नहीं हैं। अपना मोबाइल/ईमेल सत्यापित ☞ कराएं जिससे आप सभी ऑनलाइन\nसुविधाओं का लाभ प्राप्त कर सकें।\n6. सामान्य उपभोक्ताओं हेतु बिल अवधि पिछली मीटर रीडिंग की तिथि से वर्तमान मीटर रीडिंग की तिथि तक होती है, जबकि स्मार्ट मीटर/MRI उपभोक्ताओं हेतु बिलिंग अवधि पिछले माह के प्रथम दिवस से\nअंतिम दिवस तक होती है/ Bill Duration for normal consumers is from the date of the previous meter reading to the date of the current reading, whereas for the Smart\nMeter/MRI consumers, the billing period is considered from the first day to the last day of the previous month\n7. नेट बिल्ड यूनिट्स आयातित यूनिट में से सोलर एक्सपोर्ट यूनिट (यदि कोई हों) घटाने के बाद ऊर्जा प्रभार की गणना हेतु उपयोग किया जाता है/ Net Billed Units are the units used for calculation\nof electricity charges after deducting solar export units (if any) from the import units.\n8. पावर फैक्टर यह दर्शाता है कि विद्युत ऊर्जा का उपयोग कितनी दक्षता से किया जा रहा है। पावर फैक्टर 0.90 या उससे अधिक बनाए रखने से विद्युत हानियाँ कम होती हैं तथा बिल पर पावर फैक्टर सरचार्ज\nनहीं लगता है/ Power Factor indicates how efficiently electricity is being utilized. Maintaining power factor 0.90 or above helps reduce electricity losses and avoids\npower factor surcharge."
+  }
+}

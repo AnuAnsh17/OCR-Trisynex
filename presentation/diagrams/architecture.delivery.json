@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "e1824c0f-2578-448d-a24d-fc7d3fe6d398",
+  "status": "current",
+  "command": "deliver",
+  "type": "architecture",
+  "input": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture.json",
+  "output": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\architecture.html",
+  "specification": {
+    "sha256": "184443c58ee6b5dba868048ba1c9a65db0fdae735cff8205d0904d106a267639",
+    "bytes": 3230
+  },
+  "artifact": {
+    "sha256": "d38d261017f4d7945f8e52c438b6009b66a5e949ed73973edd1da56b58077a8b",
+    "bytes": 752379
+  }
+}

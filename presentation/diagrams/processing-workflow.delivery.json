@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "24806f61-9e60-4097-a30f-b06d0745d8ac",
+  "status": "current",
+  "command": "deliver",
+  "type": "dataflow",
+  "input": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+  "output": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html",
+  "specification": {
+    "sha256": "81bfb1e3d30e2d10626edc9871f66ed905d278a80bf6da274fdfcb8bb6ffbd59",
+    "bytes": 2227
+  },
+  "artifact": {
+    "sha256": "cbe8b4a861563d44474f803c6093a96ac377966f9638aa8f67f788d7d8c1bdb9",
+    "bytes": 750437
+  }
+}

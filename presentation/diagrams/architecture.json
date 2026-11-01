@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "URJA System Architecture",
+    "subtitle": "Local document processing, structured output, focused review",
+    "output": "presentation/diagrams/architecture.html",
+    "quality_profile": "showcase"
+  },
+  "components": [
+    {
+      "id": "person",
+      "type": "external",
+      "label": "Document Owner",
+      "sublabel": "local browser",
+      "pos": [
+        40,
+        235
+      ],
+      "size": [
+        160,
+        72
+      ]
+    },
+    {
+      "id": "ui",
+      "type": "frontend",
+      "label": "URJA Workspace",
+      "sublabel": "upload + result renderer",
+      "pos": [
+        330,
+        225
+      ],
+      "size": [
+        180,
+        84
+      ]
+    },
+    {
+      "id": "api",
+      "type": "backend",
+      "label": "FastAPI Ingestion",
+      "sublabel": "POST /api/ingest",
+      "pos": [
+        650,
+        225
+      ],
+      "size": [
+        180,
+        84
+      ]
+    },
+    {
+      "id": "pipeline",
+      "type": "backend",
+      "label": "Document Pipeline",
+      "sublabel": "prepare · OCR · reconstruct · extract · validate",
+      "pos": [
+        970,
+        225
+      ],
+      "size": [
+        220,
+        90
+      ]
+    },
+    {
+      "id": "filesystem",
+      "type": "database",
+      "label": "Local JSON Artifacts",
+      "sublabel": "raw · normalized · semantic · validation",
+      "pos": [
+        650,
+        475
+      ],
+      "size": [
+        200,
+        86
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "LOCAL URJA APP CONTEXT",
+      "wraps": [
+        "ui",
+        "api",
+        "pipeline",
+        "filesystem"
+      ],
+      "pad": 28
+    }
+  ],
+  "connections": [
+    {
+      "id": "user-ui",
+      "from": "person",
+      "to": "ui",
+      "label": "choose files",
+      "variant": "default"
+    },
+    {
+      "id": "ui-api",
+      "from": "ui",
+      "to": "api",
+      "label": "multipart upload",
+      "variant": "emphasis"
+    },
+    {
+      "id": "api-pipeline",
+      "from": "api",
+      "to": "pipeline",
+      "label": "sync orchestration",
+      "variant": "default"
+    },
+    {
+      "id": "api-files",
+      "from": "api",
+      "to": "filesystem",
+      "label": "write JSON snapshots",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "Current execution",
+      "items": [
+        "FastAPI orchestrates one request through page preparation, IndicOCR, generic reconstruction, semantic adaptation, and validation.",
+        "The current semantic adapter handles electricity bills; other document types retain generic document data."
+      ]
+    },
+    {
+      "dot": "slate",
+      "title": "Persistence",
+      "items": [
+        "Uploaded sources and raw, normalized, semantic, validation, and manifest JSON are written under data/documents/.",
+        "This prototype exposes a final response after processing; it does not report live page progress."
+      ]
+    }
+  ]
+}

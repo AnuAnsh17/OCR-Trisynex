@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "finalize",
+  "status": "fail",
+  "type": "dataflow",
+  "quality": "showcase",
+  "specification": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\generic-utility-flow.json",
+    "sha256": "f0b60f14b2ed8f4208c10ccd9d1c80c6d8da2ff3e8a8af5eb23a839fd85ac696",
+    "bytes": 4928
+  },
+  "artifact": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\generic-utility-flow.html"
+  },
+  "gates": {
+    "validate": "fail",
+    "deliver": "not-run",
+    "check": "not-run",
+    "browser-check": "not-run"
+  },
+  "failedStage": "validate",
+  "diagnostics": [
+    {
+      "code": "composition/label-route-clearance",
+      "severity": "error",
+      "message": "[composition/label-route-clearance] showcase dataflow label \"same generic intake\" on flows[1] id \"gas-ingest\" \"gas-doc\" -> \"ingest\" label \"same generic intake\" is 0px from flows[0] id \"elec-ingest\" \"electricity-doc\" -> \"ingest\" label \"same upload contract\" segment 1 [207.5, 157] -> [207.5, 258] (label rect [155, 250, 105, 16]; minimum 4px) — adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 1,
+        "id": "gas-ingest",
+        "from": "gas-doc",
+        "to": "ingest"
+      },
+      "evidence": {
+        "label": "same generic intake",
+        "otherRelationship": {
+          "diagramType": "dataflow",
+          "collection": "flows",
+          "index": 0,
+          "id": "elec-ingest",
+          "from": "electricity-doc",
+          "to": "ingest"
+        },
+        "segmentIndex": 1,
+        "clearancePx": 0,
+        "minimumPx": 4,
+        "labelRect": {
+          "relation": {
+            "id": "gas-ingest",
+            "from": "gas-doc",
+            "to": "ingest",
+            "label": "same generic intake"
+          },
+          "relationIndex": 1,
+          "label": "same generic intake",
+          "x": 154.95,
+          "y": 250,
+          "width": 105.1,
+          "height": 16,
+          "lx": 207.5,
+          "ly": 261
+        },
+        "from": [
+          207.5,
+          157
+        ],
+        "to": [
+          207.5,
+          258
+        ]
+      },
+      "supportedFixes": [
+        "adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY"
+      ]
+    },
+    {
+      "code": "composition/label-canvas-containment",
+      "severity": "error",
+      "message": "[composition/label-canvas-containment] showcase dataflow label \"render returned data\" on flows[9] id \"display\" \"api-response\" -> \"renderer\" extends past the right edge by 75px (label rect [905, 279, 110, 16]; viewBox 940x720) — adjust labelAt, labelDx, labelDy, or labelSegment; otherwise enlarge meta.viewBox.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 9,
+        "id": "display",
+        "from": "api-response",
+        "to": "renderer"
+      },
+      "evidence": {
+        "label": "render returned data",
+        "labelRect": {
+          "x": 905,
+          "y": 279,
+          "width": 110,
+          "height": 16
+        },
+        "viewBox": [
+          940,
+          720
+        ],
+        "overflowPx": {
+          "right": 75
+        },
+        "tolerancePx": 0.5
+      },
+      "supportedFixes": [
+        "adjust labelAt, labelDx, labelDy, or labelSegment; otherwise enlarge meta.viewBox"
+      ]
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Sublabel \"provider-specific PDF / image\" needs ~105px at the 6px legible minimum, but node \"electricity-doc\" provides 104px — shorten the sublabel or increase node.width.",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "composition/label-route-clearance",
+      "severity": "error",
+      "message": "[composition/label-route-clearance] showcase dataflow label \"unknown / other types keep generic data\" on flows[5] id \"unmapped-data\" \"generic-doc\" -> \"generic-output\" label \"unknown / other types keep generic data\" is 0px from flows[6] id \"future-maps\" \"generic-doc\" -> \"planned\" label \"future specialization\" segment 1 [637.5, 284] -> [637.5, 499] (label rect [536, 307, 203, 16]; minimum 4px) — adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 5,
+        "id": "unmapped-data",
+        "from": "generic-doc",
+        "to": "generic-output"
+      },
+      "evidence": {
+        "label": "unknown / other types keep generic data",
+        "otherRelationship": {
+          "diagramType": "dataflow",
+          "collection": "flows",
+          "index": 6,
+          "id": "future-maps",
+          "from": "generic-doc",
+          "to": "planned"
+        },
+        "segmentIndex": 1,
+        "clearancePx": 0,
+        "minimumPx": 4,
+        "labelRect": {
+          "relation": {
+            "id": "unmapped-data",
+            "from": "generic-doc",
+            "to": "generic-output",
+            "label": "unknown / other types keep generic data"
+          },
+          "relationIndex": 5,
+          "label": "unknown / other types keep generic data",
+          "x": 535.95,
+          "y": 307,
+          "width": 203.1,
+          "height": 16,
+          "lx": 637.5,
+          "ly": 318
+        },
+        "from": [
+          637.5,
+          284
+        ],
+        "to": [
+          637.5,
+          499
+        ]
+      },
+      "supportedFixes": [
+        "adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY"
+      ]
+    },
+    {
+      "code": "composition/label-route-clearance",
+      "severity": "error",
+      "message": "[composition/label-route-clearance] showcase dataflow label \"future specialization\" on flows[6] id \"future-maps\" \"generic-doc\" -> \"planned\" label \"future specialization\" is 0px from flows[5] id \"unmapped-data\" \"generic-doc\" -> \"generic-output\" label \"unknown / other types keep generic data\" segment 1 [637.5, 271] -> [637.5, 385] (label rect [580, 371, 115, 16]; minimum 4px) — adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 6,
+        "id": "future-maps",
+        "from": "generic-doc",
+        "to": "planned"
+      },
+      "evidence": {
+        "label": "future specialization",
+        "otherRelationship": {
+          "diagramType": "dataflow",
+          "collection": "flows",
+          "index": 5,
+          "id": "unmapped-data",
+          "from": "generic-doc",
+          "to": "generic-output"
+        },
+        "segmentIndex": 1,
+        "clearancePx": 0,
+        "minimumPx": 4,
+        "labelRect": {
+          "relation": {
+            "id": "future-maps",
+            "from": "generic-doc",
+            "to": "planned",
+            "label": "future specialization",
+            "variant": "dashed"
+          },
+          "relationIndex": 6,
+          "label": "future specialization",
+          "x": 580.05,
+          "y": 370.5,
+          "width": 114.9,
+          "height": 16,
+          "lx": 637.5,
+          "ly": 381.5
+        },
+        "from": [
+          637.5,
+          271
+        ],
+        "to": [
+          637.5,
+          385
+        ]
+      },
+      "supportedFixes": [
+        "adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY"
+      ]
+    },
+    {
+      "code": "composition/label-route-clearance",
+      "severity": "error",
+      "message": "[composition/label-route-clearance] showcase dataflow label \"render returned data\" on flows[9] id \"display\" \"api-response\" -> \"renderer\" label \"render returned data\" is 1.4px from flows[7] id \"generic-result\" \"generic-output\" -> \"api-response\" label \"generic document payload\" segment 2 [852.5, 278] -> [904, 278] (label rect [905, 279, 110, 16]; minimum 4px) — adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 9,
+        "id": "display",
+        "from": "api-response",
+        "to": "renderer"
+      },
+      "evidence": {
+        "label": "render returned data",
+        "otherRelationship": {
+          "diagramType": "dataflow",
+          "collection": "flows",
+          "index": 7,
+          "id": "generic-result",
+          "from": "generic-output",
+          "to": "api-response"
+        },
+        "segmentIndex": 2,
+        "clearancePx": 1.4,
+        "minimumPx": 4,
+        "labelRect": {
+          "relation": {
+            "id": "display",
+            "from": "api-response",
+            "to": "renderer",
+            "label": "render returned data",
+            "variant": "emphasis"
+          },
+          "relationIndex": 9,
+          "label": "render returned data",
+          "x": 905,
+          "y": 279,
+          "width": 110,
+          "height": 16,
+          "lx": 960,
+          "ly": 290
+        },
+        "from": [
+          852.5,
+          278
+        ],
+        "to": [
+          904,
+          278
+        ]
+      },
+      "supportedFixes": [
+        "adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY"
+      ]
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Sublabel \"shared upload + page preparation\" needs ~116px at the 6px legible minimum, but node \"ingest\" provides 104px — shorten the sublabel or increase node.width.",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Label \"Generic document record\" (~143px) is wider than node \"generic-doc\" (112px) — shorten the label or increase node.width.",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    }
+  ],
+  "diagnosticSummary": {
+    "total": 23,
+    "shown": 8,
+    "truncated": true
+  },
+  "evidence": {
+    "receipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\utility-review-1\\generic-utility-flow.finalize.json",
+    "summaryReceipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\utility-review-1\\generic-utility-flow.finalize-summary.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.0.1",
+    "availableVersion": "3.0.1",
+    "releaseNotes": null,
+    "checkedAt": "2026-09-30T12:52:01.297Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 1766,
+  "nextAction": {
+    "action": "edit-in-place",
+    "candidate": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\generic-utility-flow.json",
+    "constraint": "Preserve unaffected semantics and geometry; do not replace the whole candidate.",
+    "then": "finalize-once"
+  }
+}

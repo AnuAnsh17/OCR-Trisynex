@@ -1,0 +1,145 @@
+{
+  "page_number": 3,
+  "source_file": "page_3.png",
+  "source_path": "C:\\Users\\anura\\Desktop\\urja\\data\\uploads\\3f5ec0f9174d\\pages\\page_3.png",
+  "ocr_engine": "IndicOCR",
+  "model": "bodhan-ai/indic-ocr",
+  "result": {
+    "image": "page_3.png",
+    "width": 1654,
+    "height": 2339,
+    "blocks": [
+      {
+        "order": 0,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          35.1,
+          11.9,
+          1627.0,
+          149.0
+        ],
+        "conf": 0.835,
+        "text": "<table>\n<thead>\n<tr>\n<th colspan=\"2\">Table 4 : विद्युत चोरी/अनियमितता का राजस्व निर्धारण / Theft/UE Revenue Assessment</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>विद्युत चोरी का राजस्व निर्धारण / Theft Assessment</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>विद्युत चोरी के राजस्व निर्धारण पर विलम्बित भुगतान अधिभार / LPSC on Theft Assessment</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>कुल Total</td>\n<td>0.00</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 1,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          35.1,
+          154.8,
+          1626.4,
+          490.0
+        ],
+        "conf": 0.92,
+        "text": "<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 5 : अंतिम भुगतान का विवरण / Last Payment Details</th>\n</tr>\n<tr>\n<th>भुगतान दिनांक / Payment Date</th>\n<th>भुगतान धनराशि / Payment Amount ( ₹ )</th>\n<th>भुगतान माध्यम / Payment Mode</th>\n<th>रसीद संख्या / Receipt No.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>22-AUG-2026</td>\n<td>2558.00</td>\n<td>payment via internet</td>\n<td>540111935400</td>\n</tr>\n<tr>\n<td colspan=\"4\">Table 6 : विगत छ: माह का उपभोग / Last Six month's Consumption</td>\n</tr>\n<tr>\n<td>Sr. No.</td>\n<td>माह /Month</td>\n<td>रिकॉर्डेड डिमांड/ Recorded Demand (kW / kVA)</td>\n<td>उपभोग /Consumption in Units (kWh / kVAh)</td>\n</tr>\n<tr>\n<td>1</td>\n<td>AUG-2026</td>\n<td>2.04</td>\n<td>356.12</td>\n</tr>\n<tr>\n<td>2</td>\n<td>JUL-2026</td>\n<td>3.67</td>\n<td>581.18</td>\n</tr>\n<tr>\n<td>3</td>\n<td>JUN-2026</td>\n<td>3.23</td>\n<td>474.23</td>\n</tr>\n<tr>\n<td>4</td>\n<td>MAY-2026</td>\n<td>2.33</td>\n<td>286.95</td>\n</tr>\n<tr>\n<td>5</td>\n<td>APR-2026</td>\n<td>2.56</td>\n<td>245.76</td>\n</tr>\n<tr>\n<td>6</td>\n<td>MAR-2026</td>\n<td>2.69</td>\n<td>217.15</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 2,
+        "label": "Infobox",
+        "type": "Text",
+        "bbox_xyxy": [
+          28.8,
+          496.8,
+          1640.9,
+          695.2
+        ],
+        "conf": 0.58,
+        "text": "भुगतान के विकल्प/ Payment Options\nउपभोक्ता निम्नलिखित माध्यमों से बिल का भुगतान कर सकते हैं:ऑनलाइन:-वेबसाइट: www.uppcl.org। यूपीपीसीएल कंज्यूमर ऐप (एंड्रॉइड / iOS) - यूपीआई / क्यूआर कोड: फोनपे, गूगल पे, पेटीएम, भीम, नेट बैंकिंग / डेबिट\nकार्ड / क्रेडिट कार्ड। ऑफलाइन:-विद्युत कार्यालय, मीटर रीडर, विद्युत सखी, जन सेवा केंद्र, फिनटेक एजेंसियां:-वायमटेक, बीएलएस, सहज, सरल\nConsumers can pay bills through the following channels: Online: www.uppcl.org | UPPCL Consumer App (Android / iOS) - UPI / QR Code: PhonePe, Google Pay, Paytm,\nBHIM, Net Banking / Debit Card / Credit Card | Offline: Department Office, Meter Readers, Vidyut Sakhi, CSC, Fintech Agencies: - Vayamtech, BLS, Sahaj, SARAL\nकृपया केवल 'UPPCL' या अधिकृत माध्यम से ही भुगतान करें। Please pay only to UPPCL or authorised payment channels"
+      },
+      {
+        "order": 3,
+        "label": "Infobox",
+        "type": "Text",
+        "bbox_xyxy": [
+          31.3,
+          697.3,
+          1634.6,
+          1036.4
+        ],
+        "conf": 0.537,
+        "text": "टिप्पणियाँ/Notes\n14. क्रेडिट वह राशि है जो बिल संशोधन के कारण समायोजित की जाती है, जिससे उपभोक्ता की देय राशि कम हो जाती है/ Credit represents the amount adjusted due to bill revision that\nreduces the consumer's payable amount.\n15. डेबिट वह अतिरिक्त राशि है जो बिल संशोधन के कारण बिल पर अधिरोपित की जाती है, जिससे देय राशि में वृद्धि होती है/ Debit represents the additional amount charged to the\nconsumer due to bill revision, resulting in increase in the payable amount.\n16. रिबेट वह छूट है जो पात्र उपभोक्ताओं को, जैसे प्रीपेड रिबेट अथवा ग्रामीण रिबेट, लागू टैरिफ प्रावधानों के अंतर्गत प्रदान की जाती है/ Rebate is the concession such as prepaid rebate or\nrural rebate given to eligible consumers as per applicable tariff provisions.\n17. देय तिथि रिबेट समायोजन वह समायोजन है जो उपभोक्ताओं को पुराना बिल निर्धारित देय तिथि तक जमा करने पर प्रदान की जाती है/ Due Date Rebate Adjustment represents the\nadjustment provided to consumers for payment of the previous bill within the prescribed due date.\n18. एसी शुल्क वह शुल्क है जो विभागीय उपभोक्ताओं द्वारा घोषित एयर कंडीशनरों की संख्या के आधार पर लगाया जाता है/ AC charges represent the charges levied on departmental\nconsumer based on number of ACs declared by them."
+      },
+      {
+        "order": 4,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          35.2,
+          1054.7,
+          1642.8,
+          1290.7
+        ],
+        "conf": 0.917,
+        "text": "<table>\n<thead>\n<tr>\n<th>मीटर संख्या</th>\n<th>यूनिट प्रकार</th>\n<th colspan=\"2\">पिछली / Previous</th>\n<th colspan=\"2\">वर्तमान / Current</th>\n<th>अंतर</th>\n<th>मीटर<br/>गुणांक</th>\n<th>खपत</th>\n<th>अवधि<br/>(माह)</th>\n<th>टिप्पणी</th>\n</tr>\n<tr>\n<th>Meter Number</th>\n<th>Unit Type</th>\n<th>तिथि/ Date</th>\n<th>रीड/Read</th>\n<th>तिथि/ Date</th>\n<th>रीड/Read</th>\n<th>Diff.</th>\n<th>M.F.</th>\n<th>Consumption</th>\n<th>Period<br/>(Months)</th>\n<th>Remark</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>8558246IVEQ1<br/>4128</td>\n<td>KW</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>1</td>\n<td>1.79 KW</td>\n<td>1</td>\n<td>OK</td>\n</tr>\n<tr>\n<td>8558246IVEQ1<br/>4128</td>\n<td>KWH</td>\n<td>01-AUG-2026 00:00</td>\n<td>10315.33</td>\n<td>01-SEP-2026 00:00</td>\n<td>10671.28</td>\n<td>355.95</td>\n<td>1</td>\n<td>355.95 KWH</td>\n<td>1</td>\n<td>OK</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 5,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          31.9,
+          1324.6,
+          1630.8,
+          1445.7
+        ],
+        "conf": 0.929,
+        "text": "<table>\n  <tbody>\n    <tr>\n      <td rowspan=\"2\">निर्धारित यूनिट/<br/>Assessed Unit</td>\n      <td rowspan=\"2\">0.00</td>\n      <td>प्रारंभिक अधिशेष सौर यूनिट/<br/>Opening Surplus Solar Units</td>\n      <td>0.00</td>\n      <td>अंतिम अधिशेष सौर यूनिट/<br/>Closing Surplus Solar Units</td>\n      <td>0.00</td>\n    </tr>\n    <tr>\n      <td>पी2पी विक्रय यूनिट /<br/>P2P Sold Units</td>\n      <td></td>\n      <td>पी2पी क्रय यूनिट /<br/>P2P Bought Units</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>"
+      },
+      {
+        "order": 6,
+        "label": "Table",
+        "type": "Table",
+        "bbox_xyxy": [
+          30.4,
+          1467.3,
+          1622.4,
+          1581.9
+        ],
+        "conf": 0.658,
+        "text": "<table>\n<thead>\n<tr>\n<th>Complaint / Grievance Redressal</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>शिकायत निवारण / Complaint Redressal: - कॉल सेंटर / Call Centre: 1912 (24x7, Toll Free) - WhatsApp Chatbot: 8010968292 – ऑनलाइन शिकायत: www.uppcl.org &gt;<br/>Complaint &gt; 1912 Complaint Registration, UPPCL Smart App, UPPCL Consumer App</td>\n</tr>\n</tbody>\n</table>"
+      },
+      {
+        "order": 7,
+        "label": "Infobox",
+        "type": "Text",
+        "bbox_xyxy": [
+          29.8,
+          1603.4,
+          1625.7,
+          1735.3
+        ],
+        "conf": 0.581,
+        "text": "उपभोक्ता जानकारी - भार स्वयं बढायें / Consumer Information - Increase Load Yourself\nउपभोक्ता स्वयं अपने संयोजन का स्वीकृत भार घर बैठे वेबसाइट 'www.uppcl.org' एवं मोबाइल ऐप 'UPPCL Consumer App' पर जाकर बढ़ा सकते हैं।\nConsumers can themselves increase contracted load of their connection through the website 'www.uppcl.org' or through the mobile app 'UPPCL Consumer App'."
+      },
+      {
+        "order": 8,
+        "label": "Page-number",
+        "type": "PageNumber",
+        "bbox_xyxy": [
+          1513.6,
+          1792.1,
+          1591.1,
+          1814.4
+        ],
+        "conf": 0.55,
+        "text": "5401182778"
+      },
+      {
+        "order": 9,
+        "label": "Footer",
+        "type": "PageFooter",
+        "bbox_xyxy": [
+          1510.8,
+          1791.2,
+          1591.5,
+          1814.6
+        ],
+        "conf": 0.626,
+        "text": ""
+      }
+    ],
+    "markdown": "<table>\n<thead>\n<tr>\n<th colspan=\"2\">Table 4 : विद्युत चोरी/अनियमितता का राजस्व निर्धारण / Theft/UE Revenue Assessment</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>विद्युत चोरी का राजस्व निर्धारण / Theft Assessment</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>विद्युत चोरी के राजस्व निर्धारण पर विलम्बित भुगतान अधिभार / LPSC on Theft Assessment</td>\n<td>0.00</td>\n</tr>\n<tr>\n<td>कुल Total</td>\n<td>0.00</td>\n</tr>\n</tbody>\n</table>\n\n<table>\n<thead>\n<tr>\n<th colspan=\"4\">Table 5 : अंतिम भुगतान का विवरण / Last Payment Details</th>\n</tr>\n<tr>\n<th>भुगतान दिनांक / Payment Date</th>\n<th>भुगतान धनराशि / Payment Amount ( ₹ )</th>\n<th>भुगतान माध्यम / Payment Mode</th>\n<th>रसीद संख्या / Receipt No.</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>22-AUG-2026</td>\n<td>2558.00</td>\n<td>payment via internet</td>\n<td>540111935400</td>\n</tr>\n<tr>\n<td colspan=\"4\">Table 6 : विगत छ: माह का उपभोग / Last Six month's Consumption</td>\n</tr>\n<tr>\n<td>Sr. No.</td>\n<td>माह /Month</td>\n<td>रिकॉर्डेड डिमांड/ Recorded Demand (kW / kVA)</td>\n<td>उपभोग /Consumption in Units (kWh / kVAh)</td>\n</tr>\n<tr>\n<td>1</td>\n<td>AUG-2026</td>\n<td>2.04</td>\n<td>356.12</td>\n</tr>\n<tr>\n<td>2</td>\n<td>JUL-2026</td>\n<td>3.67</td>\n<td>581.18</td>\n</tr>\n<tr>\n<td>3</td>\n<td>JUN-2026</td>\n<td>3.23</td>\n<td>474.23</td>\n</tr>\n<tr>\n<td>4</td>\n<td>MAY-2026</td>\n<td>2.33</td>\n<td>286.95</td>\n</tr>\n<tr>\n<td>5</td>\n<td>APR-2026</td>\n<td>2.56</td>\n<td>245.76</td>\n</tr>\n<tr>\n<td>6</td>\n<td>MAR-2026</td>\n<td>2.69</td>\n<td>217.15</td>\n</tr>\n</tbody>\n</table>\n\nभुगतान के विकल्प/ Payment Options\nउपभोक्ता निम्नलिखित माध्यमों से बिल का भुगतान कर सकते हैं:ऑनलाइन:-वेबसाइट: www.uppcl.org। यूपीपीसीएल कंज्यूमर ऐप (एंड्रॉइड / iOS) - यूपीआई / क्यूआर कोड: फोनपे, गूगल पे, पेटीएम, भीम, नेट बैंकिंग / डेबिट\nकार्ड / क्रेडिट कार्ड। ऑफलाइन:-विद्युत कार्यालय, मीटर रीडर, विद्युत सखी, जन सेवा केंद्र, फिनटेक एजेंसियां:-वायमटेक, बीएलएस, सहज, सरल\nConsumers can pay bills through the following channels: Online: www.uppcl.org | UPPCL Consumer App (Android / iOS) - UPI / QR Code: PhonePe, Google Pay, Paytm,\nBHIM, Net Banking / Debit Card / Credit Card | Offline: Department Office, Meter Readers, Vidyut Sakhi, CSC, Fintech Agencies: - Vayamtech, BLS, Sahaj, SARAL\nकृपया केवल 'UPPCL' या अधिकृत माध्यम से ही भुगतान करें। Please pay only to UPPCL or authorised payment channels\n\nटिप्पणियाँ/Notes\n14. क्रेडिट वह राशि है जो बिल संशोधन के कारण समायोजित की जाती है, जिससे उपभोक्ता की देय राशि कम हो जाती है/ Credit represents the amount adjusted due to bill revision that\nreduces the consumer's payable amount.\n15. डेबिट वह अतिरिक्त राशि है जो बिल संशोधन के कारण बिल पर अधिरोपित की जाती है, जिससे देय राशि में वृद्धि होती है/ Debit represents the additional amount charged to the\nconsumer due to bill revision, resulting in increase in the payable amount.\n16. रिबेट वह छूट है जो पात्र उपभोक्ताओं को, जैसे प्रीपेड रिबेट अथवा ग्रामीण रिबेट, लागू टैरिफ प्रावधानों के अंतर्गत प्रदान की जाती है/ Rebate is the concession such as prepaid rebate or\nrural rebate given to eligible consumers as per applicable tariff provisions.\n17. देय तिथि रिबेट समायोजन वह समायोजन है जो उपभोक्ताओं को पुराना बिल निर्धारित देय तिथि तक जमा करने पर प्रदान की जाती है/ Due Date Rebate Adjustment represents the\nadjustment provided to consumers for payment of the previous bill within the prescribed due date.\n18. एसी शुल्क वह शुल्क है जो विभागीय उपभोक्ताओं द्वारा घोषित एयर कंडीशनरों की संख्या के आधार पर लगाया जाता है/ AC charges represent the charges levied on departmental\nconsumer based on number of ACs declared by them.\n\n<table>\n<thead>\n<tr>\n<th>मीटर संख्या</th>\n<th>यूनिट प्रकार</th>\n<th colspan=\"2\">पिछली / Previous</th>\n<th colspan=\"2\">वर्तमान / Current</th>\n<th>अंतर</th>\n<th>मीटर<br/>गुणांक</th>\n<th>खपत</th>\n<th>अवधि<br/>(माह)</th>\n<th>टिप्पणी</th>\n</tr>\n<tr>\n<th>Meter Number</th>\n<th>Unit Type</th>\n<th>तिथि/ Date</th>\n<th>रीड/Read</th>\n<th>तिथि/ Date</th>\n<th>रीड/Read</th>\n<th>Diff.</th>\n<th>M.F.</th>\n<th>Consumption</th>\n<th>Period<br/>(Months)</th>\n<th>Remark</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>8558246IVEQ1<br/>4128</td>\n<td>KW</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>1</td>\n<td>1.79 KW</td>\n<td>1</td>\n<td>OK</td>\n</tr>\n<tr>\n<td>8558246IVEQ1<br/>4128</td>\n<td>KWH</td>\n<td>01-AUG-2026 00:00</td>\n<td>10315.33</td>\n<td>01-SEP-2026 00:00</td>\n<td>10671.28</td>\n<td>355.95</td>\n<td>1</td>\n<td>355.95 KWH</td>\n<td>1</td>\n<td>OK</td>\n</tr>\n</tbody>\n</table>\n\n<table>\n  <tbody>\n    <tr>\n      <td rowspan=\"2\">निर्धारित यूनिट/<br/>Assessed Unit</td>\n      <td rowspan=\"2\">0.00</td>\n      <td>प्रारंभिक अधिशेष सौर यूनिट/<br/>Opening Surplus Solar Units</td>\n      <td>0.00</td>\n      <td>अंतिम अधिशेष सौर यूनिट/<br/>Closing Surplus Solar Units</td>\n      <td>0.00</td>\n    </tr>\n    <tr>\n      <td>पी2पी विक्रय यूनिट /<br/>P2P Sold Units</td>\n      <td></td>\n      <td>पी2पी क्रय यूनिट /<br/>P2P Bought Units</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>\n\n<table>\n<thead>\n<tr>\n<th>Complaint / Grievance Redressal</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>शिकायत निवारण / Complaint Redressal: - कॉल सेंटर / Call Centre: 1912 (24x7, Toll Free) - WhatsApp Chatbot: 8010968292 – ऑनलाइन शिकायत: www.uppcl.org &gt;<br/>Complaint &gt; 1912 Complaint Registration, UPPCL Smart App, UPPCL Consumer App</td>\n</tr>\n</tbody>\n</table>\n\nउपभोक्ता जानकारी - भार स्वयं बढायें / Consumer Information - Increase Load Yourself\nउपभोक्ता स्वयं अपने संयोजन का स्वीकृत भार घर बैठे वेबसाइट 'www.uppcl.org' एवं मोबाइल ऐप 'UPPCL Consumer App' पर जाकर बढ़ा सकते हैं।\nConsumers can themselves increase contracted load of their connection through the website 'www.uppcl.org' or through the mobile app 'UPPCL Consumer App'.\n\n5401182778"
+  }
+}

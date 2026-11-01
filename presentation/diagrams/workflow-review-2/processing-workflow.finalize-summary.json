@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "finalize",
+  "status": "fail",
+  "type": "dataflow",
+  "quality": "showcase",
+  "specification": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+    "sha256": "3cd918fd413833f6aa64f0b21f0a09c9c32457ff2fbd64588f22e8077789781c",
+    "bytes": 4674
+  },
+  "artifact": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html"
+  },
+  "gates": {
+    "validate": "fail",
+    "deliver": "not-run",
+    "check": "not-run",
+    "browser-check": "not-run"
+  },
+  "failedStage": "validate",
+  "diagnostics": [
+    {
+      "code": "clean-flow/endpoint-side-direction",
+      "severity": "error",
+      "message": "[clean-flow/endpoint-side-direction] dataflow flows[4] id \"generic-to-electricity\" \"rebuild\" -> \"electricity\" first segment 0 [745, 242] -> [741.5, 242] does not honor inferred fromSide \"top\" — it must run vertical upward; keep automatic routing, or choose fromSide/toSide and via points whose first and final segments cross node borders perpendicularly.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 4,
+        "id": "generic-to-electricity",
+        "from": "rebuild",
+        "to": "electricity"
+      },
+      "evidence": {
+        "endpoint": "source",
+        "authoredField": "fromSide",
+        "sideOrigin": "inferred",
+        "side": "top",
+        "segmentIndex": 0,
+        "from": [
+          745,
+          242
+        ],
+        "to": [
+          741.5,
+          242
+        ],
+        "expectedAxis": "vertical",
+        "expectedDirection": "upward"
+      },
+      "supportedFixes": [
+        "keep automatic routing, or choose fromSide/toSide and via points whose first and final segments cross node borders perpendicularly"
+      ]
+    },
+    {
+      "code": "clean-flow/edge-through-node",
+      "severity": "error",
+      "message": "[clean-flow/edge-through-node] dataflow flows[5] id \"semantic-validation\" \"electricity\" -> \"validation\" crosses node \"rebuild\" (unrelated to this relationship) on segment 1 [749, 186] -> [749, 356] (2px clearance) — adjust fromSide/toSide, set route/via or channelX/channelY, or move the node to another stage/row.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 5,
+        "id": "semantic-validation",
+        "from": "electricity",
+        "to": "validation"
+      },
+      "evidence": {
+        "obstacleKind": "node",
+        "obstacleId": "rebuild",
+        "segmentIndex": 1,
+        "from": [
+          748.5,
+          186
+        ],
+        "to": [
+          748.5,
+          356
+        ],
+        "clearancePx": 2
+      },
+      "supportedFixes": [
+        "adjust fromSide/toSide, set route/via or channelX/channelY, or move the node to another stage/row"
+      ]
+    },
+    {
+      "code": "composition/micro-segment",
+      "severity": "error",
+      "message": "[composition/micro-segment] showcase dataflow flows[4] id \"generic-to-electricity\" \"rebuild\" -> \"electricity\" has a 3.5px source-stub segment 0 [745, 242] -> [741.5, 242] that is below the 8px micro-segment floor — adjust route/via or channelX/channelY so each turn uses a clear inter-stage corridor.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 4,
+        "id": "generic-to-electricity",
+        "from": "rebuild",
+        "to": "electricity"
+      },
+      "evidence": {
+        "segmentIndex": 0,
+        "position": "source-stub",
+        "lengthPx": 3.5,
+        "minimumPx": 8,
+        "from": [
+          745,
+          242
+        ],
+        "to": [
+          741.5,
+          242
+        ]
+      },
+      "supportedFixes": [
+        "adjust route/via or channelX/channelY so each turn uses a clear inter-stage corridor"
+      ]
+    },
+    {
+      "code": "composition/label-route-clearance",
+      "severity": "error",
+      "message": "[composition/label-route-clearance] showcase dataflow label \"when classified as electricity\" on flows[4] id \"generic-to-electricity\" \"rebuild\" -> \"electricity\" label \"when classified as electricity\" is 0px from flows[5] id \"semantic-validation\" \"electricity\" -> \"validation\" label \"semantic values + candidates\" segment 1 [748.5, 186] -> [748.5, 356] (label rect [662, 193, 159, 16]; minimum 4px) — adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 4,
+        "id": "generic-to-electricity",
+        "from": "rebuild",
+        "to": "electricity"
+      },
+      "evidence": {
+        "label": "when classified as electricity",
+        "otherRelationship": {
+          "diagramType": "dataflow",
+          "collection": "flows",
+          "index": 5,
+          "id": "semantic-validation",
+          "from": "electricity",
+          "to": "validation"
+        },
+        "segmentIndex": 1,
+        "clearancePx": 0,
+        "minimumPx": 4,
+        "labelRect": {
+          "relation": {
+            "id": "generic-to-electricity",
+            "from": "rebuild",
+            "to": "electricity",
+            "label": "when classified as electricity",
+            "variant": "emphasis"
+          },
+          "relationIndex": 4,
+          "label": "when classified as electricity",
+          "x": 662,
+          "y": 193,
+          "width": 159,
+          "height": 16,
+          "lx": 741.5,
+          "ly": 204
+        },
+        "from": [
+          748.5,
+          186
+        ],
+        "to": [
+          748.5,
+          356
+        ]
+      },
+      "supportedFixes": [
+        "adjust labelAt, labelDx, labelDy, or labelSegment; otherwise adjust the other flow route/via/channelX/channelY"
+      ]
+    },
+    {
+      "code": "composition/label-canvas-containment",
+      "severity": "error",
+      "message": "[composition/label-canvas-containment] showcase dataflow label \"write JSON files\" on flows[8] id \"persist\" \"response\" -> \"artifacts\" extends past the right edge by 65.2px (label rect [915, 279, 90, 16]; viewBox 940x720) — adjust labelAt, labelDx, labelDy, or labelSegment; otherwise enlarge meta.viewBox.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 8,
+        "id": "persist",
+        "from": "response",
+        "to": "artifacts"
+      },
+      "evidence": {
+        "label": "write JSON files",
+        "labelRect": {
+          "x": 914.8,
+          "y": 279,
+          "width": 90.4,
+          "height": 16
+        },
+        "viewBox": [
+          940,
+          720
+        ],
+        "overflowPx": {
+          "right": 65.2
+        },
+        "tolerancePx": 0.5
+      },
+      "supportedFixes": [
+        "adjust labelAt, labelDx, labelDy, or labelSegment; otherwise enlarge meta.viewBox"
+      ]
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Label \"Generic reconstruction\" (~136px) is wider than node \"rebuild\" (112px) — shorten the label or increase node.width.",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "clean-flow/endpoint-side-direction",
+      "severity": "error",
+      "message": "[clean-flow/endpoint-side-direction] dataflow flows[5] id \"semantic-validation\" \"electricity\" -> \"validation\" first segment 0 [752, 186] -> [748.5, 186] does not honor inferred fromSide \"bottom\" — it must run vertical downward; keep automatic routing, or choose fromSide/toSide and via points whose first and final segments cross node borders perpendicularly.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 5,
+        "id": "semantic-validation",
+        "from": "electricity",
+        "to": "validation"
+      },
+      "evidence": {
+        "endpoint": "source",
+        "authoredField": "fromSide",
+        "sideOrigin": "inferred",
+        "side": "bottom",
+        "segmentIndex": 0,
+        "from": [
+          752,
+          186
+        ],
+        "to": [
+          748.5,
+          186
+        ],
+        "expectedAxis": "vertical",
+        "expectedDirection": "downward"
+      },
+      "supportedFixes": [
+        "keep automatic routing, or choose fromSide/toSide and via points whose first and final segments cross node borders perpendicularly"
+      ]
+    },
+    {
+      "code": "composition/micro-segment",
+      "severity": "error",
+      "message": "[composition/micro-segment] showcase dataflow flows[6] id \"generic-result\" \"rebuild\" -> \"response\" has a 7px interior segment 1 [852.5, 271] -> [852.5, 264] that is below the 8px micro-segment floor — adjust route/via or channelX/channelY so each turn uses a clear inter-stage corridor.",
+      "subject": {
+        "diagramType": "dataflow",
+        "collection": "flows",
+        "index": 6,
+        "id": "generic-result",
+        "from": "rebuild",
+        "to": "response"
+      },
+      "evidence": {
+        "segmentIndex": 1,
+        "position": "interior",
+        "lengthPx": 7,
+        "minimumPx": 8,
+        "from": [
+          852.5,
+          271
+        ],
+        "to": [
+          852.5,
+          264
+        ]
+      },
+      "supportedFixes": [
+        "adjust route/via or channelX/channelY so each turn uses a clear inter-stage corridor"
+      ]
+    }
+  ],
+  "diagnosticSummary": {
+    "total": 26,
+    "shown": 8,
+    "truncated": true
+  },
+  "evidence": {
+    "receipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-2\\processing-workflow.finalize.json",
+    "summaryReceipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-2\\processing-workflow.finalize-summary.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.0.1",
+    "availableVersion": "3.0.1",
+    "releaseNotes": null,
+    "checkedAt": "2026-09-30T12:52:01.297Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 964,
+  "nextAction": {
+    "action": "edit-in-place",
+    "candidate": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+    "constraint": "Preserve unaffected semantics and geometry; do not replace the whole candidate.",
+    "then": "finalize-once"
+  }
+}

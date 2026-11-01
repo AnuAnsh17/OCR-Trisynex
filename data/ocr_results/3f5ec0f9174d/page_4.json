@@ -1,0 +1,171 @@
+{
+  "page_number": 4,
+  "source_file": "page_4.png",
+  "source_path": "C:\\Users\\anura\\Desktop\\urja\\data\\uploads\\3f5ec0f9174d\\pages\\page_4.png",
+  "ocr_engine": "IndicOCR",
+  "model": "bodhan-ai/indic-ocr",
+  "result": {
+    "image": "page_4.png",
+    "width": 1654,
+    "height": 2339,
+    "blocks": [
+      {
+        "order": 0,
+        "label": "Header",
+        "type": "PageHeader",
+        "bbox_xyxy": [
+          501.7,
+          108.1,
+          1165.1,
+          155.1
+        ],
+        "conf": 0.566,
+        "text": ""
+      },
+      {
+        "order": 1,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          518.9,
+          116.7,
+          1154.5,
+          151.6
+        ],
+        "conf": 0.752,
+        "text": "Statutory / Legal Notices (Mandatory as per Supply Code)"
+      },
+      {
+        "order": 2,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          62.7,
+          149.2,
+          1620.8,
+          299.2
+        ],
+        "conf": 0.916,
+        "text": "1. विद्युत आपूर्ति संहिता - 2005 के खण्ड 9.3 के अन्तर्गत इस बिल को अंतिम नोटिस माना जायेगा। बकाया राशि का भुगतान न करने पर विद्युत कनेक्शन काटा जा सकता है। This Bill will be construed\nas Final Notice under Section 9.3 of Electricity Supply Code-2005. Supply can be disconnected at any date on non-payment of dues.\n2. यदि उपभोक्ता निर्धारित देय तिथि तक पूर्ण विद्युत बिल का भुगतान नहीं करता है, तो लेट पेमेंट सरचार्ज (LPSC) लगाया जाएगा। If the consumer fails to pay the entire electricity bill by the due\ndate, Late Payment Surcharge (LPSC) shall be levied on the unpaid amount and electricity connection will be disconnected.\n3. विद्युत चोरी, विद्युत अधिनियम 2003 की धारा 135 के अंतर्गत दंडनीय अपराध है। Electricity theft is a punishable offence under Section 135 of the Electricity Act, 2003."
+      },
+      {
+        "order": 3,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          190.4,
+          328.6,
+          730.4,
+          416.6
+        ],
+        "conf": 0.747,
+        "text": "मोबाइल/व्हाट्सऐप/ईमेल कैसे अपडेट करें\nHow to update Mobile/WhatsApp/Email"
+      },
+      {
+        "order": 4,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          90.5,
+          422.0,
+          834.3,
+          552.7
+        ],
+        "conf": 0.876,
+        "text": "• **UPPCL** की वेबसाइट पर उपलब्ध \"मोबाइल नंबर और ईमेल सुधार\" लिंक पर\nजाएँ अथवा नीचे दिए गए **QR** कोड को स्कैन करें। Visit the \"**Mobile Number**\n**and Email updation**\" link available on the UPPCL website or scan\nthe below QR Code."
+      },
+      {
+        "order": 5,
+        "label": "Image",
+        "type": "Picture",
+        "bbox_xyxy": [
+          373.3,
+          560.9,
+          548.0,
+          733.3
+        ],
+        "conf": 0.751,
+        "text": ""
+      },
+      {
+        "order": 6,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          91.3,
+          768.8,
+          808.3,
+          845.1
+        ],
+        "conf": 0.845,
+        "text": "• अपने निकटतम विद्युत कार्यालय में संपर्क करें/ Visit your nearest Electricity\nOffice."
+      },
+      {
+        "order": 7,
+        "label": "Section-title",
+        "type": "SectionHeader",
+        "bbox_xyxy": [
+          1062.9,
+          324.2,
+          1454.9,
+          417.3
+        ],
+        "conf": 0.741,
+        "text": "मोबाइल/ईमेल कैसे सत्यापित करें\nHow to verify Mobile/Email"
+      },
+      {
+        "order": 8,
+        "label": "List",
+        "type": "Text",
+        "bbox_xyxy": [
+          877.1,
+          421.3,
+          1621.6,
+          527.9
+        ],
+        "conf": 0.905,
+        "text": "• **UPPCL** की वेबसाइट पर उपलब्ध \"मोबाइल/ईमेल सत्यापित करें\" लिंक पर जाएँ\nअथवा नीचे दिए गए **QR** कोड को स्कैन करें। Visit the \"Verify Mobile/Email\n_\" link available on the UPPCL website or scan the below QR Code."
+      },
+      {
+        "order": 9,
+        "label": "Image",
+        "type": "Picture",
+        "bbox_xyxy": [
+          1170.0,
+          556.0,
+          1350.3,
+          732.8
+        ],
+        "conf": 0.799,
+        "text": ""
+      },
+      {
+        "order": 10,
+        "label": "Folio",
+        "type": "PageNumber",
+        "bbox_xyxy": [
+          1524.8,
+          1123.7,
+          1602.6,
+          1146.6
+        ],
+        "conf": 0.525,
+        "text": "5401182778"
+      },
+      {
+        "order": 11,
+        "label": "Footer",
+        "type": "PageFooter",
+        "bbox_xyxy": [
+          1517.0,
+          1116.2,
+          1610.7,
+          1153.1
+        ],
+        "conf": 0.553,
+        "text": ""
+      }
+    ],
+    "markdown": "Statutory / Legal Notices (Mandatory as per Supply Code)\n\n1. विद्युत आपूर्ति संहिता - 2005 के खण्ड 9.3 के अन्तर्गत इस बिल को अंतिम नोटिस माना जायेगा। बकाया राशि का भुगतान न करने पर विद्युत कनेक्शन काटा जा सकता है। This Bill will be construed\nas Final Notice under Section 9.3 of Electricity Supply Code-2005. Supply can be disconnected at any date on non-payment of dues.\n2. यदि उपभोक्ता निर्धारित देय तिथि तक पूर्ण विद्युत बिल का भुगतान नहीं करता है, तो लेट पेमेंट सरचार्ज (LPSC) लगाया जाएगा। If the consumer fails to pay the entire electricity bill by the due\ndate, Late Payment Surcharge (LPSC) shall be levied on the unpaid amount and electricity connection will be disconnected.\n3. विद्युत चोरी, विद्युत अधिनियम 2003 की धारा 135 के अंतर्गत दंडनीय अपराध है। Electricity theft is a punishable offence under Section 135 of the Electricity Act, 2003.\n\nमोबाइल/व्हाट्सऐप/ईमेल कैसे अपडेट करें\nHow to update Mobile/WhatsApp/Email\n\n• **UPPCL** की वेबसाइट पर उपलब्ध \"मोबाइल नंबर और ईमेल सुधार\" लिंक पर\nजाएँ अथवा नीचे दिए गए **QR** कोड को स्कैन करें। Visit the \"**Mobile Number**\n**and Email updation**\" link available on the UPPCL website or scan\nthe below QR Code.\n\n• अपने निकटतम विद्युत कार्यालय में संपर्क करें/ Visit your nearest Electricity\nOffice.\n\nमोबाइल/ईमेल कैसे सत्यापित करें\nHow to verify Mobile/Email\n\n• **UPPCL** की वेबसाइट पर उपलब्ध \"मोबाइल/ईमेल सत्यापित करें\" लिंक पर जाएँ\nअथवा नीचे दिए गए **QR** कोड को स्कैन करें। Visit the \"Verify Mobile/Email\n_\" link available on the UPPCL website or scan the below QR Code.\n\n5401182778"
+  }
+}

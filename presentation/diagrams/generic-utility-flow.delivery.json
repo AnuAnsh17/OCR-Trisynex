@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "66a34a97-e9ae-4801-ae25-335099beee9e",
+  "status": "current",
+  "command": "deliver",
+  "type": "dataflow",
+  "input": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\generic-utility-flow.json",
+  "output": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\generic-utility-flow.html",
+  "specification": {
+    "sha256": "c055971f3d99ff94a27363a2370a575fcaf336e27b735e1f9b49671421e1556b",
+    "bytes": 2365
+  },
+  "artifact": {
+    "sha256": "65b9b844196e0c84469bc4f20911669b66ad9a433a60c38eb34bdea5b652755b",
+    "bytes": 750485
+  }
+}

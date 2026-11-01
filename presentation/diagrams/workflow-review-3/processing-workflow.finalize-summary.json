@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "finalize",
+  "status": "fail",
+  "type": "dataflow",
+  "quality": "showcase",
+  "specification": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+    "sha256": "af8c4e1731a1ff996a8b8b444e33a0d3a28637b58ef68ac53c021a7733be0cbc",
+    "bytes": 2353
+  },
+  "artifact": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html"
+  },
+  "gates": {
+    "validate": "fail",
+    "deliver": "not-run",
+    "check": "not-run",
+    "browser-check": "not-run"
+  },
+  "failedStage": "validate",
+  "diagnostics": [
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Node \"sources\" exceeds the horizontal bounds of the viewBox — reduce node.width or increase meta.viewBox[0].",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Flow \"page images\" is too short (31px; minimum 34px) — route it through a channel or spread its nodes.",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Flow \"text · blocks · tables\" is too short (25px; minimum 34px) — route it through a channel or spread its nodes.",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Flow \"document + checks\" is too short (23px; minimum 34px) — route it through a channel or spread its nodes.",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Label \"ordered upload\" overlaps node \"sources\" — adjust labelDx/labelDy/labelSegment or set labelAt.\n  label rect: [165, 136, 81, 16]\n  node \"sources\" rect: [13, 128, 174, 58]\n  Suggested fix: set labelAt [205, 201] or set labelDy 54 (below); or set labelAt [205, 119] or set labelDy -28 (above)",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Label \"ordered upload\" overlaps node \"prepare\" — adjust labelDx/labelDy/labelSegment or set labelAt.\n  label rect: [165, 136, 81, 16]\n  node \"prepare\" rect: [223, 128, 184, 58]\n  Suggested fix: set labelAt [205, 201] or set labelDy 54 (below); or set labelAt [205, 119] or set labelDy -28 (above)",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Label \"page images\" overlaps node \"prepare\" — adjust labelDx/labelDy/labelSegment or set labelAt.\n  label rect: [390, 136, 66, 16]\n  node \"prepare\" rect: [223, 128, 184, 58]\n  Suggested fix: set labelAt [423, 201] or set labelDx 1 with labelDy 54 (below); or set labelAt [423, 119] or set labelDx 1 with labelDy -28 (above)",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Label \"page images\" overlaps node \"ocr\" — adjust labelDx/labelDy/labelSegment or set labelAt.\n  label rect: [390, 136, 66, 16]\n  node \"ocr\" rect: [438, 128, 184, 58]\n  Suggested fix: set labelAt [423, 201] or set labelDx 1 with labelDy 54 (below); or set labelAt [423, 119] or set labelDx 1 with labelDy -28 (above)",
+      "subject": {
+        "diagramType": "dataflow"
+      }
+    }
+  ],
+  "diagnosticSummary": {
+    "total": 12,
+    "shown": 8,
+    "truncated": true
+  },
+  "evidence": {
+    "receipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-3\\processing-workflow.finalize.json",
+    "summaryReceipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-3\\processing-workflow.finalize-summary.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.0.1",
+    "availableVersion": "3.0.1",
+    "releaseNotes": null,
+    "checkedAt": "2026-09-30T12:52:01.297Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 615,
+  "nextAction": {
+    "action": "edit-in-place",
+    "candidate": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+    "constraint": "Preserve unaffected semantics and geometry; do not replace the whole candidate.",
+    "then": "finalize-once"
+  }
+}

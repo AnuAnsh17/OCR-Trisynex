@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "finalize",
+  "status": "fail",
+  "type": "dataflow",
+  "quality": "showcase",
+  "startedAt": "2026-09-30T12:56:45.152Z",
+  "specification": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+    "sha256": "8997a35b3ce2d19bedbc7482570417a0a209c8c5f6fd502135fad2f88fda4f12",
+    "bytes": 2199
+  },
+  "artifact": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html"
+  },
+  "stages": {
+    "validate": {
+      "status": "fail",
+      "exitCode": 1,
+      "durationMs": null,
+      "command": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "C:\\Users\\anura\\.agents\\skills\\archify\\bin\\archify.mjs",
+        "deliver",
+        "dataflow",
+        "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+        "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html",
+        "--quality",
+        "showcase",
+        "--json"
+      ],
+      "receipt": {
+        "schemaVersion": 1,
+        "ok": false,
+        "command": "deliver",
+        "receiptId": "fdf8516d-505d-4995-96c2-00dae5a95b3d",
+        "stage": "render",
+        "type": "dataflow",
+        "input": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+        "output": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html",
+        "error": "Data-flow layout validation failed:\n- Node \"results\" exceeds the horizontal bounds of the viewBox — reduce node.width or increase meta.viewBox[0].\n- Stages exceed viewBox width — set meta.viewBox[0] to at least 1068.",
+        "diagnostics": [
+          {
+            "code": "layout/constraint",
+            "severity": "error",
+            "message": "Node \"results\" exceeds the horizontal bounds of the viewBox — reduce node.width or increase meta.viewBox[0].",
+            "subject": {
+              "diagramType": "dataflow"
+            },
+            "evidence": {},
+            "supportedFixes": []
+          },
+          {
+            "code": "layout/constraint",
+            "severity": "error",
+            "message": "Stages exceed viewBox width — set meta.viewBox[0] to at least 1068.",
+            "subject": {
+              "diagramType": "dataflow"
+            },
+            "evidence": {},
+            "supportedFixes": []
+          }
+        ],
+        "provenance": "absent",
+        "update": {
+          "status": "unavailable",
+          "installedVersion": null,
+          "availableVersion": null,
+          "releaseNotes": null,
+          "checkedAt": null,
+          "source": null,
+          "noticeRequired": false,
+          "noticeText": null,
+          "reason": "disabled"
+        }
+      },
+      "execution": "embedded-in-deliver"
+    },
+    "deliver": {
+      "status": "not-run",
+      "execution": "blocked-by-validate"
+    }
+  },
+  "diagnostics": [
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Node \"results\" exceeds the horizontal bounds of the viewBox — reduce node.width or increase meta.viewBox[0].",
+      "subject": {
+        "diagramType": "dataflow"
+      },
+      "evidence": {},
+      "supportedFixes": []
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Stages exceed viewBox width — set meta.viewBox[0] to at least 1068.",
+      "subject": {
+        "diagramType": "dataflow"
+      },
+      "evidence": {},
+      "supportedFixes": []
+    }
+  ],
+  "evidence": {
+    "receipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-4\\processing-workflow.finalize.json",
+    "summaryReceipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-4\\processing-workflow.finalize-summary.json"
+  },
+  "visualReview": "not-requested",
+  "failedStage": "validate",
+  "finishedAt": "2026-09-30T12:56:45.729Z",
+  "durationMs": 576,
+  "update": {
+    "status": "current",
+    "installedVersion": "3.0.1",
+    "availableVersion": "3.0.1",
+    "releaseNotes": null,
+    "checkedAt": "2026-09-30T12:52:01.297Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  }
+}

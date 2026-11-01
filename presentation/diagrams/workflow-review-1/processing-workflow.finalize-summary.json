@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "finalize",
+  "status": "fail",
+  "type": "dataflow",
+  "quality": "showcase",
+  "specification": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.json",
+    "sha256": "3cd918fd413833f6aa64f0b21f0a09c9c32457ff2fbd64588f22e8077789781c",
+    "bytes": 4674
+  },
+  "artifact": {
+    "path": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html"
+  },
+  "gates": {
+    "validate": "not-run",
+    "deliver": "fail",
+    "check": "not-run",
+    "browser-check": "not-run"
+  },
+  "failedStage": "deliver",
+  "diagnostics": [
+    {
+      "code": "delivery/concurrent-attempt",
+      "severity": "error",
+      "message": "Could not start delivery for \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html\": Another delivery attempt owns \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html\" through lock \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\.archify-delivery-lock.json\".",
+      "subject": {
+        "output": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html",
+        "lock": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\.archify-delivery-lock.json"
+      },
+      "evidence": {
+        "reason": "Another delivery attempt owns \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\processing-workflow.html\" through lock \"C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\.archify-delivery-lock.json\"."
+      },
+      "supportedFixes": [
+        "wait for the active delivery to finish, then retry"
+      ]
+    }
+  ],
+  "diagnosticSummary": {
+    "total": 1,
+    "shown": 1,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-1\\processing-workflow.finalize.json",
+    "summaryReceipt": "C:\\Users\\anura\\Desktop\\urja\\presentation\\diagrams\\workflow-review-1\\processing-workflow.finalize-summary.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.0.1",
+    "availableVersion": "3.0.1",
+    "releaseNotes": null,
+    "checkedAt": "2026-09-30T12:52:01.297Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 603
+}
